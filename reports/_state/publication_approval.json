@@ -1,0 +1,27 @@
+{
+  "run_id": "iran-us-economy-2026-20260318_080147",
+  "project_name": "iran-us-economy-2026",
+  "project_dir": "/tmp/projects/iran-us-economy-2026",
+  "mode": "prelim",
+  "status": "approved",
+  "requires_approval": false,
+  "verifier_verdict": "PASS",
+  "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_080145_reporter_executive_summary.md",
+  "notebook_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_080145_reporter_executive_summary.ipynb",
+  "pdf_path": null,
+  "qa_report_path": "",
+  "outputs": [
+    "/tmp/projects/iran-us-economy-2026/reports/20260318_075714_qual_builder_consolidated.md",
+    "/tmp/projects/iran-us-economy-2026/reports/20260318_075714_quant_builder_consolidated.md",
+    "/tmp/projects/iran-us-economy-2026/reports/20260318_075714_session_dialogue.md",
+    "/tmp/projects/iran-us-economy-2026/reports/20260318_075714_verifier_verification_report.md",
+    "/tmp/projects/iran-us-economy-2026/reports/20260318_080145_reporter_executive_summary.md",
+    "/tmp/projects/iran-us-economy-2026/reports/20260318_080145_reporter_executive_summary.ipynb"
+  ],
+  "summary": "Prelim run for iran-us-economy-2026 passed verification with 4 chart(s) and 3 collaboration message(s).",
+  "notes": "",
+  "created_at": "2026-03-18T08:01:47",
+  "updated_at": "2026-03-18T08:01:47",
+  "approved_at": "2026-03-18T08:01:47",
+  "approved_by": "system"
+}

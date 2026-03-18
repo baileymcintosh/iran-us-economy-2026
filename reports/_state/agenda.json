@@ -1,6 +1,6 @@
 [
   {
-    "id": "A_65ece9d5",
+    "id": "A_4e3855f9",
     "question": "Investigate the geopolitical context, policy responses, and key actors relevant to this research brief.",
     "owner": "qual",
     "priority": "high",
@@ -8,11 +8,11 @@
     "status": "done",
     "created_by": "planner",
     "note": "",
-    "created_at": "2026-03-18T07:12:36",
-    "updated_at": "2026-03-18T07:12:39"
+    "created_at": "2026-03-18T07:51:56",
+    "updated_at": "2026-03-18T07:51:59"
   },
   {
-    "id": "A_15fb10bd",
+    "id": "A_cf885604",
     "question": "Fetch market and economic data, produce charts, and quantify the financial and statistical claims.",
     "owner": "quant",
     "priority": "high",
@@ -20,127 +20,79 @@
     "status": "done",
     "created_by": "planner",
     "note": "",
-    "created_at": "2026-03-18T07:12:36",
-    "updated_at": "2026-03-18T07:15:51"
+    "created_at": "2026-03-18T07:51:56",
+    "updated_at": "2026-03-18T07:57:12"
   },
   {
-    "id": "A_282c418d",
-    "question": "What is the current state of the conflict and its impact on the global economy?",
+    "id": "A_55ec1eef",
+    "question": "What are the potential long-term effects of the conflict on the US economy?",
     "owner": "qual",
-    "priority": "high",
+    "priority": "medium",
     "difficulty": "complex",
     "status": "done",
     "created_by": "qual_builder",
-    "note": "Need to monitor the situation closely",
-    "created_at": "2026-03-18T07:12:39",
-    "updated_at": "2026-03-18T07:12:43"
+    "note": "Further research is needed to understand the potential long-term effects of the conflict on the US economy.",
+    "created_at": "2026-03-18T07:51:59",
+    "updated_at": "2026-03-18T07:52:05"
   },
   {
-    "id": "A_c060d7f5",
-    "question": "What are the potential long-term implications of the conflict for the global economy?",
+    "id": "A_601d9920",
+    "question": "What are the potential implications of the conflict on the US stock market?",
     "owner": "qual",
-    "priority": "high",
+    "priority": "medium",
     "difficulty": "synthesis",
     "status": "open",
     "created_by": "qual_builder",
-    "note": "Requires further research and analysis.",
-    "created_at": "2026-03-18T07:12:43",
-    "updated_at": "2026-03-18T07:12:43"
+    "note": "The conflict could lead to a decline in investor confidence, which could have a negative impact on the US stock market.",
+    "created_at": "2026-03-18T07:52:05",
+    "updated_at": "2026-03-18T07:52:05"
   },
   {
-    "id": "A_c264475b",
-    "question": "What is the estimated capacity loss from the Kharg Island strike on March 16, and how does this affect Iranian export volumes?",
-    "owner": "quant",
-    "priority": "high",
-    "difficulty": "simple",
-    "status": "done",
-    "created_by": "quant_builder",
-    "note": "Kharg handles ~90% of Iranian oil exports; strike would directly set a floor under oil prices.",
-    "created_at": "2026-03-18T07:15:51",
-    "updated_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "A_4e3bd452",
-    "question": "Is the S&P 500's relative resilience (-1.4%) explained by sector rotation (energy gainers offsetting consumer/transport losers), or broader fiscal backstop signals?",
-    "owner": "shared",
-    "priority": "medium",
-    "difficulty": "simple",
-    "status": "done",
-    "created_by": "quant_builder",
-    "note": "Would require sector-level breakdown (XLE, XLY, XLP). Quant can fetch; qual can provide narrative.",
-    "created_at": "2026-03-18T07:15:51",
-    "updated_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "A_31ee09ad",
-    "question": "What is the current US CPI trajectory given the energy price shock, and does the Fed face a policy bind?",
-    "owner": "shared",
-    "priority": "high",
-    "difficulty": "complex",
-    "status": "done",
-    "created_by": "quant_builder",
-    "note": "FRED CPIAUCSL latest data + market-implied inflation breakevens (TIPS spread) needed.",
-    "created_at": "2026-03-18T07:15:51",
-    "updated_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "A_c301f77f",
-    "question": "Has Iran's $200/bbl oil threat been made as an official government statement, and what supply scenario would produce it?",
-    "owner": "qual",
-    "priority": "medium",
-    "difficulty": "simple",
-    "status": "open",
-    "created_by": "quant_builder",
-    "note": "Appeared in YouTube headline Mar 16. If official, warrants annotation on price chart.",
-    "created_at": "2026-03-18T07:15:51",
-    "updated_at": "2026-03-18T07:15:51"
-  },
-  {
-    "id": "A_6f33b6b9",
-    "question": "What was the specific military/shipping event on January 29 that triggered the first Brent spike to $70.7/bbl?",
-    "owner": "qual",
-    "priority": "high",
-    "difficulty": "complex",
-    "status": "open",
-    "created_by": "quant_builder",
-    "note": "Data shows clear Jan 29 inflection but catalyst not identified in current sources.",
-    "created_at": "2026-03-18T07:21:01",
-    "updated_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "A_a89c022e",
-    "question": "Has the US government announced SPR releases or other price-stabilization mechanisms in response to Brent crossing $100/bbl?",
-    "owner": "qual",
-    "priority": "high",
-    "difficulty": "simple",
-    "status": "open",
-    "created_by": "quant_builder",
-    "note": "10yr yield decline and muted equity response suggest possible fiscal backstop signals; needs policy verification.",
-    "created_at": "2026-03-18T07:21:01",
-    "updated_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "A_5726944a",
-    "question": "What caused the VIX peak of 29.5 on March 6 \u2014 one week BEFORE the Kharg Island strike on March 13?",
+    "id": "A_fb90ade9",
+    "question": "What explains Gold's -4.3% decline since war onset despite a 34% oil shock \u2014 is this USD strength, margin calls, or conflict-specific dynamics?",
     "owner": "qual",
     "priority": "medium",
     "difficulty": "complex",
     "status": "open",
     "created_by": "quant_builder",
-    "note": "The pre-strike fear peak is anomalous and may indicate intelligence leaks or a separate escalation event.",
-    "created_at": "2026-03-18T07:21:01",
-    "updated_at": "2026-03-18T07:21:01"
+    "note": "Anomalous safe-haven inversion; needs narrative policy/behavioral explanation",
+    "created_at": "2026-03-18T07:57:12",
+    "updated_at": "2026-03-18T07:57:12"
   },
   {
-    "id": "A_1606f6d2",
-    "question": "Quantify sector-level S&P 500 returns (XLE, XLY, XLI, XLU) since Jan 6 escalation to confirm the sector rotation hypothesis explaining index resilience.",
+    "id": "A_a68397fd",
+    "question": "Has the Fed signaled any response to the stagflationary oil shock \u2014 will it hold rates or signal cuts to offset growth risk?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "10Y yields rising while stocks fall suggests markets pricing inflation premium; Fed guidance critical",
+    "created_at": "2026-03-18T07:57:12",
+    "updated_at": "2026-03-18T07:57:12"
+  },
+  {
+    "id": "A_d048f957",
+    "question": "What is the sector breakdown of S&P 500 performance \u2014 are energy stocks masking consumer/transport weakness?",
     "owner": "quant",
     "priority": "medium",
-    "difficulty": "synthesis",
+    "difficulty": "complex",
+    "status": "in_progress",
+    "created_by": "quant_builder",
+    "note": "Fetch XLE, XLY, XLI, XLP sector ETFs to decompose index performance",
+    "created_at": "2026-03-18T07:57:12",
+    "updated_at": "2026-03-18T07:57:14"
+  },
+  {
+    "id": "A_1e822e18",
+    "question": "What is the current Congressional authorization status for war funding and what fiscal path is expected?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
     "status": "open",
     "created_by": "quant_builder",
-    "note": "Current -1.0% index figure needs sector decomposition to properly address A_4e3bd452.",
-    "created_at": "2026-03-18T07:21:01",
-    "updated_at": "2026-03-18T07:21:01"
+    "note": "$11.3B in first 6 days; sustained conflict could add 0.2\u20130.5% of GDP to deficit",
+    "created_at": "2026-03-18T07:57:12",
+    "updated_at": "2026-03-18T07:57:12"
   }
 ]

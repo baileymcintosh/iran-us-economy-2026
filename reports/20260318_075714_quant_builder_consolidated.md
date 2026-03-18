@@ -1,0 +1,72 @@
+# Quantitative Research — Consolidated (1 turns)
+
+| Field | Value |
+|---|---|
+| Agent | Quant Builder (Claude claude-sonnet-4-6) |
+| Date | 2026-03-18 07:57:14 |
+| Total Charts | 4 |
+
+---
+
+## Turn 1
+
+All four charts are complete. Here is the full analytical summary:
+
+---
+
+## Quantitative Findings: Iran-US-Israel War Market Impact
+
+### 🛢️ Oil Market (Partner Claim Verification)
+
+**Brent Crude shock confirmed — and it's severe:**
+- **Pre-war (Feb 27):** $71.32/bbl
+- **Peak (Mar 6):** $95.74/bbl → **+34.2% in 6 trading days**
+- **As of Mar 9 (FRED):** $94.35/bbl | **Mar 18 (futures):** $102.06/bbl
+- WTI (Mar 18): $93.15/bbl
+
+This is the **fastest modern oil shock on record** — the 1990 Gulf War took ~75 days to hit peak +130%, and the 2003 Iraq War barely moved. The Strait of Hormuz near-closure (affecting ~20% of global petroleum flow), plus the Kharg Island strike threat, created an acute, front-loaded shock. The 15–18 mb/d structural gap (per LNRG analysis) has only ~40–50% mitigation capacity via bypass and Venezuela, implying a sustained **$110–130/bbl range** if the conflict continues.
+
+### 📊 US Inflation (Partner Claim Partially Verified — Data Lag)
+
+**Critical timing note:** The February 2026 CPI print (2.66% YoY) is **pre-war** — the conflict began Feb 28, the day after CPI's measurement baseline. The energy shock will only appear in **March 2026 CPI** (due ~mid-April):
+
+| Period | CPI YoY | Notes |
+|--------|---------|-------|
+| Feb 2026 | **2.66%** | Pre-war; last actual reading |
+| Mar 2026 (projected) | **~3.4–3.8%** | Oil shock transmission (+0.7–1.2pp) |
+| Apr 2026 (projected) | **~3.7–4.1%** | Full passthrough if sustained $95–105/bbl |
+
+Rule of thumb: **10% oil rise → ~0.2–0.4pp CPI uplift** after 1–2 months. A 34% oil shock implies +0.7–1.4pp.
+
+### 📉 US Financial Markets
+
+| Asset | Pre-War | Latest | Change |
+|-------|---------|--------|--------|
+| S&P 500 | 6,879 | 6,716 | **-2.4%** (trough -3.6%) |
+| VIX | 19.9 | 21.6 (peak 29.5) | **+48% peak** |
+| Gold | $5,230 | $5,006 | **-4.3%** (flight to oil, not gold) |
+| TLT | $90.52 | $87.45 | **-3.4%** |
+| 10Y Yield | 3.97% | 4.23% | **+26 bps** (inflation premium) |
+
+**Anomaly flagged:** Gold fell rather than rising — unusual safe-haven inversion. The 10Y yield rising while stocks sold off suggests markets are pricing **stagflationary risk** (inflation + growth slowdown), not pure risk-off.
+
+---
+
+## Questions for Qual
+
+1. **I see Gold fell -4.3% since war onset** (from $5,230 to ~$5,006) even as oil surged +34%. Traditionally gold rises in geopolitical crises. What narrative explains gold's underperformance — is this USD strength, portfolio deleveraging, or something specific to this conflict?
+
+2. **I see 10Y yields rose +26 bps** to 4.23% during the war period, while TLT (bond prices) fell. This is an unusual "no safe haven" signal — bonds and stocks both selling. What is the Fed/Treasury policy response? Has Powell spoken on this?
+
+3. **I see the S&P 500 only fell -3.6% at trough** despite a historic oil shock. Is there a sector rotation story here — are energy stocks masking broader weakness in consumer discretionary and transport?
+
+4. **The first 6 days of war cost $11.3 billion** (per Pentagon to Congress). What's the total fiscal commitment and has Congress authorized emergency war funding? This could pressure Treasury issuance and yields further.
+
+---
+
+## All Charts
+
+![chart_quant_1773820380_01](/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png)
+![chart_quant_1773820430_01](/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png)
+![chart_quant_1773820500_01](/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png)
+![chart_quant_1773820565_01](/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png)

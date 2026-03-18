@@ -1,482 +1,275 @@
 [
   {
-    "id": "CLM_bcbf7660",
-    "statement": "The Iran-USA-Israel war has significant implications for the US economy",
+    "id": "CLM_69f4da40",
+    "statement": "The conflict has led to increased tensions in the Middle East, resulting in higher oil prices and supply disruptions.",
     "agent_role": "qual_builder",
     "confidence": 0.9,
     "materiality": "core",
     "kind": "finding",
     "source_ids": [
-      "SRC_b94685ec"
+      "SRC_1b0a5d2b"
     ],
     "artifact_paths": [],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071239_qual_builder_turn01.md",
-    "status": "needs_revision",
-    "verification_notes": "Core claim lacks two independent tier 1-3 sources.",
-    "created_at": "2026-03-18T07:12:39"
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075159_qual_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T07:51:59"
   },
   {
-    "id": "CLM_d59e738d",
-    "statement": "Oil prices have increased due to the disruption in oil supply",
+    "id": "CLM_314d00de",
+    "statement": "The US has imposed sanctions on Iran's oil exports, leading to a decrease in global oil supplies and an increase in prices.",
     "agent_role": "qual_builder",
     "confidence": 0.8,
     "materiality": "supporting",
     "kind": "context",
     "source_ids": [
-      "SRC_171be09f"
+      "SRC_1b0a5d2b"
     ],
     "artifact_paths": [],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071239_qual_builder_turn01.md",
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075159_qual_builder_turn01.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:12:39"
+    "created_at": "2026-03-18T07:51:59"
   },
   {
-    "id": "CLM_94ba288b",
-    "statement": "The conflict between Iran, the USA, and Israel has resulted in significant disruptions to the global oil market.",
+    "id": "CLM_080aea8a",
+    "statement": "The conflict could lead to increased oil prices and disrupt global supply chains.",
     "agent_role": "qual_builder",
     "confidence": 0.8,
     "materiality": "core",
     "kind": "finding",
     "source_ids": [
-      "SRC_6ededc25"
+      "SRC_b7dfae79"
     ],
     "artifact_paths": [],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071243_qual_builder_turn02.md",
-    "status": "needs_revision",
-    "verification_notes": "Core claim lacks two independent tier 1-3 sources.",
-    "created_at": "2026-03-18T07:12:43"
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075205_qual_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T07:52:05"
   },
   {
-    "id": "CLM_d01ee550",
-    "statement": "The conflict could have long-term implications for the global economy, including potential regime changes in the Middle East.",
+    "id": "CLM_e85af1c9",
+    "statement": "The conflict could have a negative impact on the US economy by disrupting global trade.",
     "agent_role": "qual_builder",
     "confidence": 0.7,
     "materiality": "supporting",
-    "kind": "context",
+    "kind": "finding",
     "source_ids": [
-      "SRC_f0139025"
+      "SRC_ad6ee321"
     ],
     "artifact_paths": [],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071243_qual_builder_turn02.md",
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075205_qual_builder_turn02.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:12:43"
+    "created_at": "2026-03-18T07:52:05"
   },
   {
-    "id": "CLM_10d6f2a2",
-    "statement": "Brent crude rose 69% from end-2025 ($61/bbl) to $103/bbl by March 18, 2026, driven by Hormuz closure and Kharg Island strike.",
-    "agent_role": "quant_builder",
-    "confidence": 0.95,
-    "materiality": "core",
-    "kind": "market_impact",
-    "source_ids": [
-      "SRC_681206d9",
-      "SRC_5bbea089",
-      "SRC_91a71f2e",
-      "SRC_f858b622",
-      "SRC_5d0df9fe"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:15:51"
-  },
-  {
-    "id": "CLM_9a6d9389",
-    "statement": "Brent crude reached $83/bbl by March 5 (day 5 of conflict), a 15% surge from the pre-attack close of ~$72.",
-    "agent_role": "quant_builder",
+    "id": "CLM_93f2740a",
+    "statement": "The conflict could lead to a decline in economic growth and increased inflation.",
+    "agent_role": "qual_builder",
     "confidence": 0.9,
     "materiality": "core",
-    "kind": "data_point",
+    "kind": "finding",
     "source_ids": [
-      "SRC_91a71f2e",
-      "SRC_f858b622"
+      "SRC_a81d872c"
     ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075205_qual_builder_turn02.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:15:51"
+    "created_at": "2026-03-18T07:52:05"
   },
   {
-    "id": "CLM_f399379f",
-    "statement": "Iran's closure of the Strait of Hormuz disrupted ~20% of global oil supply (~20mb/d), with 4.2mb/d reroutable via alternative pipelines.",
-    "agent_role": "quant_builder",
-    "confidence": 0.93,
-    "materiality": "core",
-    "kind": "data_point",
-    "source_ids": [
-      "SRC_5bbea089",
-      "SRC_91a71f2e",
-      "SRC_f858b622"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:15:51"
-  },
-  {
-    "id": "CLM_23272e1a",
-    "statement": "S&P 500 declined 1.4% from pre-war average (6,814 \u2192 6,716), a modest decline relative to the scale of the oil shock.",
-    "agent_role": "quant_builder",
-    "confidence": 0.95,
-    "materiality": "supporting",
-    "kind": "market_impact",
-    "source_ids": [
-      "SRC_a54b3dbb",
-      "SRC_91a71f2e"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:15:51"
-  },
-  {
-    "id": "CLM_acf64f13",
-    "statement": "VIX rose 29% from pre-war average (17.3 \u2192 22.4), reflecting elevated but not crisis-level investor fear.",
-    "agent_role": "quant_builder",
-    "confidence": 0.95,
-    "materiality": "supporting",
-    "kind": "market_impact",
-    "source_ids": [
-      "SRC_54232097"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:15:51"
-  },
-  {
-    "id": "CLM_86e8fa49",
-    "statement": "Gold reached $5,001/oz, up 16.7% from pre-war average, confirming flight-to-safety dynamics.",
-    "agent_role": "quant_builder",
-    "confidence": 0.95,
-    "materiality": "supporting",
-    "kind": "market_impact",
-    "source_ids": [
-      "SRC_75aa882c"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:15:51"
-  },
-  {
-    "id": "CLM_813fc7fc",
-    "statement": "US gasoline prices rose 7.5% to ~$3.20/gal, with potential to reach $3.50/gal under Goldman Sachs' extended-conflict scenario.",
-    "agent_role": "quant_builder",
-    "confidence": 0.82,
-    "materiality": "core",
-    "kind": "market_impact",
-    "source_ids": [
-      "SRC_5bbea089",
-      "SRC_91a71f2e",
-      "SRC_f858b622"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:15:51"
-  },
-  {
-    "id": "CLM_e070bf53",
-    "statement": "A full Hormuz closure sustained over weeks could push Brent above $100, adding 0.8% to global inflation, per analyst consensus.",
-    "agent_role": "quant_builder",
-    "confidence": 0.8,
-    "materiality": "core",
-    "kind": "risk",
-    "source_ids": [
-      "SRC_91a71f2e",
-      "SRC_f858b622"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:15:51"
-  },
-  {
-    "id": "CLM_039e196e",
-    "statement": "Brent crude peaked at $103.4/bbl on March 17, 2026 \u2014 a +64% increase versus the pre-war Oct\u2013Jan baseline of $63.0/bbl.",
-    "agent_role": "quant_builder",
-    "confidence": 0.98,
-    "materiality": "core",
-    "kind": "data_point",
-    "source_ids": [
-      "SRC_681206d9"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "CLM_36cd3cf0",
-    "statement": "Brent crude spiked +14.7% in January 2026, reaching $70.7/bbl on January 29 vs December average of $61.6/bbl, coinciding with initial Iran-Israel escalation.",
+    "id": "CLM_9f554335",
+    "statement": "Brent crude rose from $71.32/bbl pre-war (Feb 27) to a peak of $95.74/bbl on Mar 6, a 34.2% increase in 6 trading days \u2014 the fastest modern oil shock on record.",
     "agent_role": "quant_builder",
     "confidence": 0.97,
     "materiality": "core",
     "kind": "data_point",
     "source_ids": [
-      "SRC_681206d9"
+      "SRC_8f9ecb76",
+      "SRC_d417fda6"
     ],
     "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
     ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
+    "created_at": "2026-03-18T07:57:12"
   },
   {
-    "id": "CLM_19bed9fa",
-    "statement": "The US strike on Kharg Island (Mar 13) targeted 90 military facilities but deliberately spared oil export infrastructure; Iranian crude exports of 1.1\u20131.5M bpd continued through the terminal.",
+    "id": "CLM_8b7ad048",
+    "statement": "Brent crude futures (yfinance) reached $102.06/bbl and WTI $93.15/bbl as of March 18, 2026, confirming sustained elevated prices 3 weeks into the conflict.",
     "agent_role": "quant_builder",
-    "confidence": 0.88,
+    "confidence": 0.97,
     "materiality": "core",
     "kind": "data_point",
     "source_ids": [
-      "SRC_d73add94",
-      "SRC_40c95186",
-      "SRC_e62ba9d0"
+      "SRC_d22ff76a",
+      "SRC_2eae8f49"
     ],
     "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
     ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
+    "created_at": "2026-03-18T07:57:12"
   },
   {
-    "id": "CLM_4cee0b06",
-    "statement": "Kharg Island handles 90% of Iran's crude exports with a maximum loading capacity of 7M bpd; actual Iranian export volumes are approximately 1.5M bpd.",
+    "id": "CLM_6a6a6b36",
+    "statement": "The February 2026 CPI print (2.66% YoY) predates the war outbreak; energy shock inflation impact will appear in March/April 2026 CPI \u2014 projected at 3.4\u20134.1% YoY based on oil-CPI passthrough models.",
     "agent_role": "quant_builder",
-    "confidence": 0.92,
+    "confidence": 0.75,
     "materiality": "core",
     "kind": "data_point",
     "source_ids": [
-      "SRC_d73add94",
-      "SRC_a95758ba"
+      "SRC_1414f000"
     ],
     "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
     ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
+    "created_at": "2026-03-18T07:57:12"
   },
   {
-    "id": "CLM_3b8d4fdd",
-    "statement": "Iran's closure of the Strait of Hormuz triggered an estimated 8M bpd global supply shock per IEA estimates, as the strait normally carries 20% of globally traded oil.",
+    "id": "CLM_536b4dd3",
+    "statement": "The Strait of Hormuz near-closure created a structural supply gap of 15\u201318 mb/d with only 40\u201350% mitigation capacity, supporting Brent in a projected $110\u2013130/bbl range over three months.",
     "agent_role": "quant_builder",
     "confidence": 0.8,
     "materiality": "core",
-    "kind": "market_impact",
+    "kind": "risk",
     "source_ids": [
-      "SRC_40c95186"
+      "SRC_d417fda6"
     ],
     "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
     ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
+    "created_at": "2026-03-18T07:57:12"
   },
   {
-    "id": "CLM_4bda90aa",
-    "statement": "The Goreh-Jask pipeline provides Iran with an alternative export route bypassing both Kharg Island and the Strait of Hormuz with capacity of approximately 1.5M bpd.",
+    "id": "CLM_95daf501",
+    "statement": "S&P 500 fell 3.6% from peak to trough (6,879 \u2192 6,632) after the war began, with VIX spiking to 29.5 from a pre-war level of 19.9.",
+    "agent_role": "quant_builder",
+    "confidence": 0.97,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_d22ff76a"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T07:57:12"
+  },
+  {
+    "id": "CLM_2bb6cc94",
+    "statement": "10-Year Treasury yield rose 26 basis points (3.97% \u2192 4.23%) while TLT fell 3.4%, signaling stagflationary market pricing \u2014 unusual 'no safe haven' environment.",
+    "agent_role": "quant_builder",
+    "confidence": 0.97,
+    "materiality": "supporting",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_5e42bb89",
+      "SRC_d22ff76a"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T07:57:12"
+  },
+  {
+    "id": "CLM_85005631",
+    "statement": "Gold fell 4.3% since war onset, an anomalous safe-haven inversion, while oil rose 34% \u2014 suggesting portfolio deleveraging or USD-driven dynamics rather than traditional crisis behavior.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "supporting",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_d22ff76a"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T07:57:12"
+  },
+  {
+    "id": "CLM_4e6dcb43",
+    "statement": "The 2026 Iran-US-Israel oil shock compares to the 1990 Gulf War in severity but is front-loaded; the 2003 Iraq War and 2021 Suez blockage were materially smaller shocks.",
     "agent_role": "quant_builder",
     "confidence": 0.85,
     "materiality": "supporting",
-    "kind": "data_point",
+    "kind": "comparison",
     "source_ids": [
-      "SRC_d73add94"
+      "SRC_8f9ecb76",
+      "SRC_d417fda6"
     ],
     "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
     ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
+    "created_at": "2026-03-18T07:57:12"
   },
   {
-    "id": "CLM_ba67c468",
-    "statement": "US CPI YoY was 2.66% in February 2026 and Core CPI was 2.73% \u2014 both still below 3%, reflecting the pre-lag period before the oil shock feeds through to consumer prices.",
+    "id": "CLM_52f2330a",
+    "statement": "The first 6 days of the US-Israel war on Iran cost the Pentagon over $11.3 billion, with no Congressional emergency authorization yet confirmed.",
     "agent_role": "quant_builder",
-    "confidence": 0.99,
-    "materiality": "core",
-    "kind": "data_point",
-    "source_ids": [
-      "SRC_e63d6d22",
-      "SRC_e41a3f70"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "CLM_bb71b19b",
-    "statement": "With energy comprising ~7% of CPI and Brent up 62%, the projected energy contribution to headline CPI is ~0.4pp/month, implying a CPI peak of 3.5\u20133.7% by May\u2013June 2026.",
-    "agent_role": "quant_builder",
-    "confidence": 0.65,
-    "materiality": "core",
-    "kind": "risk",
-    "source_ids": [
-      "SRC_681206d9",
-      "SRC_e63d6d22"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "CLM_86dd435f",
-    "statement": "The 10yr Treasury yield fell to 4.23% (Mar 16) from ~4.5% pre-war, signaling markets are pricing growth deceleration over inflation \u2014 creating a genuine Fed policy bind.",
-    "agent_role": "quant_builder",
-    "confidence": 0.97,
-    "materiality": "core",
-    "kind": "market_impact",
-    "source_ids": [
-      "SRC_fc511600"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "CLM_1dfbb05e",
-    "statement": "The S&P 500 is -1.0% vs its pre-war baseline (6716) \u2014 near-flat performance masking extreme sector dispersion: energy stocks up ~18%, consumer/transport down ~4%.",
-    "agent_role": "quant_builder",
-    "confidence": 0.82,
-    "materiality": "core",
-    "kind": "market_impact",
-    "source_ids": [
-      "SRC_7109ed52"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "CLM_bae85cae",
-    "statement": "VIX peaked at 29.5 on March 6, 2026 \u2014 elevated above the 20 threshold but well below systemic crisis levels (2020 peak: 82), indicating conflict risk priced but not systemic collapse.",
-    "agent_role": "quant_builder",
-    "confidence": 0.98,
+    "confidence": 0.9,
     "materiality": "supporting",
     "kind": "data_point",
     "source_ids": [
-      "SRC_7109ed52"
+      "SRC_57dad159"
     ],
     "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820380_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820430_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820500_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773820565_01.png"
     ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_075712_quant_builder_turn01.md",
     "status": "verified",
     "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
-  },
-  {
-    "id": "CLM_68084dce",
-    "statement": "Gold surged +20.8% to $5,017/oz versus its pre-war baseline, the primary institutional risk-off signal outpacing the muted equity market response.",
-    "agent_role": "quant_builder",
-    "confidence": 0.98,
-    "materiality": "supporting",
-    "kind": "market_impact",
-    "source_ids": [
-      "SRC_7109ed52"
-    ],
-    "artifact_paths": [
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
-      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
-    ],
-    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
-    "status": "verified",
-    "verification_notes": "Claim has sufficient provenance.",
-    "created_at": "2026-03-18T07:21:01"
+    "created_at": "2026-03-18T07:57:12"
   }
 ]
