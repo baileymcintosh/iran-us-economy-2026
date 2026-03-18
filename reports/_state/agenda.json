@@ -29,11 +29,11 @@
     "owner": "qual",
     "priority": "high",
     "difficulty": "complex",
-    "status": "open",
+    "status": "in_progress",
     "created_by": "quant_builder",
     "note": "Critical for duration-of-shock estimate which drives recession vs. soft-landing scenarios.",
     "created_at": "2026-03-18T06:14:46",
-    "updated_at": "2026-03-18T06:14:46"
+    "updated_at": "2026-03-18T06:27:43"
   },
   {
     "id": "A_cc9aecdc",
@@ -77,11 +77,11 @@
     "owner": "qual",
     "priority": "high",
     "difficulty": "simple",
-    "status": "open",
+    "status": "in_progress",
     "created_by": "quant_builder",
     "note": "CNBC reported Ruwais closed due to fire; this materially caps UAE ADCOP bypass at <1.8 mbd and changes the supply gap arithmetic.",
     "created_at": "2026-03-18T06:17:32",
-    "updated_at": "2026-03-18T06:17:32"
+    "updated_at": "2026-03-18T06:27:43"
   },
   {
     "id": "A_ad6d981e",
@@ -89,11 +89,11 @@
     "owner": "shared",
     "priority": "high",
     "difficulty": "simple",
-    "status": "open",
+    "status": "in_progress",
     "created_by": "quant_builder",
     "note": "Qatar LNG halt has direct European energy security implications distinct from the crude oil story.",
     "created_at": "2026-03-18T06:17:32",
-    "updated_at": "2026-03-18T06:17:32"
+    "updated_at": "2026-03-18T06:27:43"
   },
   {
     "id": "A_31cf0b87",
