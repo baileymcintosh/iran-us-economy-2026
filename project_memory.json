@@ -81,6 +81,45 @@
       "created_at": "2026-03-18T06:17:32"
     },
     {
+      "id": "SRC_adc6d39b",
+      "title": "US Strategic Petroleum Reserve",
+      "url": "https://www.energy.gov/fe/services/petroleum-reserves/strategic-petroleum-reserve",
+      "tier": "tier1_primary",
+      "publisher": "US Department of Energy",
+      "published_at": "2026-03-01",
+      "summary": "The US SPR current level is approximately 388 million barrels.",
+      "source_type": "web",
+      "agent_role": "qual_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062934_qual_builder_turn02.md",
+      "created_at": "2026-03-18T06:29:34"
+    },
+    {
+      "id": "SRC_34e02f5a",
+      "title": "2026 Strait of Hormuz Crisis",
+      "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "tier": "tier2_journalism",
+      "publisher": "Wikipedia (citing NYT, Guardian, Reuters, Al Jazeera)",
+      "published_at": "2026-03-10",
+      "summary": "Comprehensive event timeline: Feb 28 strikes, Mar 4 Hormuz declared closed, Iran mine-laying, war-risk insurance premiums surging.",
+      "source_type": "web",
+      "agent_role": "quant_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+      "created_at": "2026-03-18T06:33:38"
+    },
+    {
+      "id": "SRC_90a0ee1f",
+      "title": "Crude Oil Prices Swing Wildly as Iran War Stretches On",
+      "url": "https://www.wypr.org/2026-03-08/crude-oil-prices-swing-wildly-as-the-iran-war-stretches-on",
+      "tier": "tier2_journalism",
+      "publisher": "WYPR / NPR",
+      "published_at": "2026-03-08",
+      "summary": "Brent surged from $70 pre-attack to $93 by end of first week; gas prices jumped $0.50/gal to $3.45; diesel up ~90 cents in one week.",
+      "source_type": "web",
+      "agent_role": "quant_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+      "created_at": "2026-03-18T06:37:42"
+    },
+    {
       "id": "SRC_262047f5",
       "title": "How attack on Iran could impact global oil market and economy",
       "url": "https://www.cnbc.com/2026/02/28/iran-us-attack-oil-market-economy.html",
@@ -92,108 +131,279 @@
       "agent_role": "quant_builder",
       "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
       "created_at": "2026-03-18T06:14:46"
-    },
-    {
-      "id": "SRC_df9e43fd",
-      "title": "How the U.S.-Israeli war on Iran will test the stock market, economy",
-      "url": "https://www.startribune.com/us-iran-war-israel-conflict-middle-east-affect-stock-market-economy-oil-price-inflation/601595493",
-      "tier": "tier2_journalism",
-      "publisher": "Star Tribune",
-      "published_at": "2026-03-01",
-      "summary": "Documents crude oil +35% in first week post-Strait closure; S&P 500 \u20132%, Europe \u20137%, EM \u20138.4% in first 5 trading days; energy sector is only 3.4% of S&P 500.",
-      "source_type": "web",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
-      "created_at": "2026-03-18T06:14:46"
-    },
-    {
-      "id": "SRC_025faae1",
-      "title": "Iran war threatens prolonged impact on energy markets as oil prices rise",
-      "url": "https://www.aljazeera.com/news/2026/3/8/iran-war-threatens-prolonged-impact-on-energy-markets-as-oil-prices-rise",
-      "tier": "tier2_journalism",
-      "publisher": "Al Jazeera",
-      "published_at": "2026-03-08",
-      "summary": "Reports ~20% of global crude/LNG supply suspended, ~140M barrels frozen in Gulf ports, oil prices surged >25% since war start, and political vulnerability for Trump ahead of midterms.",
-      "source_type": "web",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
-      "created_at": "2026-03-18T06:14:46"
-    },
-    {
-      "id": "SRC_88153cde",
-      "title": "What does the US-Israel attack on Iran mean for oil prices?",
-      "url": "https://www.euronews.com/business/2026/02/28/what-does-the-us-israel-attack-on-iran-mean-for-oil-prices",
-      "tier": "tier2_journalism",
-      "publisher": "Euronews",
-      "published_at": "2026-02-28",
-      "summary": "Reports first Iranian Strait closure since US military threats; second live-fire drill in Strait in recent weeks; Spain condemns US-Israeli strikes.",
-      "source_type": "web",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
-      "created_at": "2026-03-18T06:14:46"
     }
   ],
-  "key_findings": [],
+  "key_findings": [
+    {
+      "id": "CLM_44508a03",
+      "statement": "Brent crude rose +8.3% from $71.32 to $77.24 in the two trading days bracketing the Feb 28, 2026 US-Israel strike on Iran",
+      "agent_role": "quant_builder",
+      "confidence": 0.99,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_fc70646d",
+        "SRC_85a9de03"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:33:38"
+    },
+    {
+      "id": "CLM_a3da6dfc",
+      "statement": "Brent crude reached an intraday peak of $119.50/bbl on March 9, 2026 \u2014 a +67.6% increase from pre-war levels in just 7 trading days",
+      "agent_role": "quant_builder",
+      "confidence": 0.99,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_85a9de03",
+        "SRC_72511336"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:33:38"
+    },
+    {
+      "id": "CLM_500614f3",
+      "statement": "Iranian drone strikes on Ras Laffan (March 2) forced QatarEnergy to halt ~10.2 Bcf/d of LNG supply (~20% of global LNG trade), the longest shutdown since 2008",
+      "agent_role": "quant_builder",
+      "confidence": 0.98,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_277bfc6b",
+        "SRC_1790ee8d"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:33:38"
+    },
+    {
+      "id": "CLM_d6341748",
+      "statement": "US announced 172Mb SPR release on March 11, 2026 \u2014 the 2nd largest in SPR history, as part of IEA's coordinated 400Mb release across 32 nations.",
+      "agent_role": "quant_builder",
+      "confidence": 0.98,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_dd36a2d3",
+        "SRC_c3a8ab3c",
+        "SRC_fc70646d",
+        "SRC_a27ac65e"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:37:42"
+    },
+    {
+      "id": "CLM_9c5de94f",
+      "statement": "TTF natural gas surged ~70% in two trading sessions (\u20ac31.6 \u2192 \u20ac53/MWh close; \u20ac62.5 intraday) following Ras Laffan shutdown and Hormuz closure",
+      "agent_role": "quant_builder",
+      "confidence": 0.97,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_277bfc6b",
+        "SRC_1790ee8d"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:33:38"
+    },
+    {
+      "id": "CLM_cebe8eb4",
+      "statement": "A prolonged closure of the Strait of Hormuz is a guaranteed global recession",
+      "agent_role": "qual_builder",
+      "confidence": 0.95,
+      "materiality": "core",
+      "kind": "finding",
+      "source_ids": [
+        "SRC_fc70646d",
+        "SRC_20d8981e"
+      ],
+      "artifact_paths": [],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062929_qual_builder_turn01.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:29:29"
+    },
+    {
+      "id": "CLM_14194e01",
+      "statement": "Brent crude surged from $71.32/bbl (Feb 27, pre-war) to a peak of $119.48/bbl on March 11 \u2014 a +67.5% increase in 11 trading days.",
+      "agent_role": "quant_builder",
+      "confidence": 0.95,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_fc70646d",
+        "SRC_1a85f0f7"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:37:42"
+    },
+    {
+      "id": "CLM_50dab4bc",
+      "statement": "US retail gasoline prices rose 21.8% from $2.98 to $3.63/gal by mid-March 2026; diesel rose ~90 cents/gal in one week.",
+      "agent_role": "quant_builder",
+      "confidence": 0.95,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_c3a8ab3c",
+        "SRC_90a0ee1f"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:37:42"
+    },
+    {
+      "id": "CLM_5a720c3e",
+      "statement": "Hormuz flow fell to <10% of pre-war levels; IEA expects Iran war to cut regional oil and gas production by at least 10 million barrels/day.",
+      "agent_role": "quant_builder",
+      "confidence": 0.92,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_a27ac65e",
+        "SRC_fc70646d"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:37:42"
+    },
+    {
+      "id": "CLM_164b4030",
+      "statement": "The Iran-USA-Israel war in 2026 has led to significant disruptions in the oil market",
+      "agent_role": "qual_builder",
+      "confidence": 0.9,
+      "materiality": "core",
+      "kind": "finding",
+      "source_ids": [
+        "SRC_fc70646d",
+        "SRC_20d8981e",
+        "SRC_c8fed78e"
+      ],
+      "artifact_paths": [],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062929_qual_builder_turn01.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T06:29:29"
+    }
+  ],
   "open_questions": [
     {
-      "id": "A_cbaac217",
-      "question": "Was the Ruwais refinery fire caused by Iranian strikes or an internal accident? If Iranian-caused, does ADNOC have realistic ability to restore UAE bypass capacity?",
-      "owner": "qual",
-      "priority": "high",
-      "difficulty": "simple",
-      "status": "in_progress",
-      "created_by": "quant_builder",
-      "note": "CNBC reported Ruwais closed due to fire; this materially caps UAE ADCOP bypass at <1.8 mbd and changes the supply gap arithmetic.",
-      "created_at": "2026-03-18T06:17:32",
-      "updated_at": "2026-03-18T06:27:43"
-    },
-    {
-      "id": "A_ad6d981e",
-      "question": "What is the estimated duration of Qatar's Ras Laffan LNG shutdown, and have European TTF gas prices already reflected this disruption?",
-      "owner": "shared",
-      "priority": "high",
-      "difficulty": "simple",
-      "status": "in_progress",
-      "created_by": "quant_builder",
-      "note": "Qatar LNG halt has direct European energy security implications distinct from the crude oil story.",
-      "created_at": "2026-03-18T06:17:32",
-      "updated_at": "2026-03-18T06:27:43"
-    },
-    {
-      "id": "A_c5ee3dd4",
-      "question": "What is Iran's current military posture and capability to sustain Strait disruption \u2014 mines, missiles, naval assets?",
+      "id": "A_08063abd",
+      "question": "How will Saudi Arabia's production strategy affect the global economy?",
       "owner": "qual",
       "priority": "high",
       "difficulty": "complex",
-      "status": "in_progress",
-      "created_by": "quant_builder",
-      "note": "Critical for duration-of-shock estimate which drives recession vs. soft-landing scenarios.",
-      "created_at": "2026-03-18T06:14:46",
-      "updated_at": "2026-03-18T06:27:43"
+      "status": "open",
+      "created_by": "qual_builder",
+      "note": "Analysis of the potential economic implications",
+      "created_at": "2026-03-18T06:29:34",
+      "updated_at": "2026-03-18T06:29:34"
     },
     {
-      "id": "A_a4aa78ea",
-      "question": "What is the US SPR (Strategic Petroleum Reserve) current level and release capacity, and has the administration announced a release?",
+      "id": "A_5d7db603",
+      "question": "What is the current diplomatic status of the Hormuz closure, and has any shipping resumed?",
       "owner": "qual",
       "priority": "high",
       "difficulty": "complex",
       "status": "open",
       "created_by": "quant_builder",
-      "note": "A major policy lever that could cap oil prices; Trump mentioned 'risk insurance' for tankers but SPR deployment not confirmed in sources.",
-      "created_at": "2026-03-18T06:14:46",
-      "updated_at": "2026-03-18T06:14:46"
+      "note": "Critical for TTF/oil scenario forecasting \u2014 GS \u20ac74 vs \u20ac100 scenario depends entirely on duration",
+      "created_at": "2026-03-18T06:33:38",
+      "updated_at": "2026-03-18T06:33:38"
     },
     {
-      "id": "A_307c55f5",
-      "question": "Is Saudi Arabia strategically limiting OPEC+ production increases to maximize revenue windfall from the Hormuz closure, given its Red Sea export route is unaffected?",
+      "id": "A_f02e4dcc",
+      "question": "Was Trump's March 10 'very soon' statement backed by any actual diplomatic back-channel, or purely a market-calming social media post?",
       "owner": "qual",
       "priority": "high",
       "difficulty": "complex",
       "status": "open",
       "created_by": "quant_builder",
-      "note": "The 206k bpd increase vs. 4.1 mbd spare is conspicuously small. Saudi incentive structure under Hormuz closure is a key geopolitical question.",
-      "created_at": "2026-03-18T06:17:32",
-      "updated_at": "2026-03-18T06:17:32"
+      "note": "Markets reversed 25% on this signal; durability of the move depends on substance behind it",
+      "created_at": "2026-03-18T06:33:38",
+      "updated_at": "2026-03-18T06:33:38"
+    },
+    {
+      "id": "A_005e5f19",
+      "question": "What is the actual measured CPI print for March-April 2026, and has it confirmed the oil pass-through estimate?",
+      "owner": "quant",
+      "priority": "high",
+      "difficulty": "complex",
+      "status": "open",
+      "created_by": "quant_builder",
+      "note": "Need FRED CPIAUCSL data for March/April 2026 to verify model estimate of +2.8pp vs actual; difficulty: simple",
+      "created_at": "2026-03-18T06:37:42",
+      "updated_at": "2026-03-18T06:37:42"
+    },
+    {
+      "id": "A_10367742",
+      "question": "Has Iran actually succeeded in fully closing Hormuz, or is it a 'soft closure' via threats deterring tanker traffic?",
+      "owner": "qual",
+      "priority": "high",
+      "difficulty": "complex",
+      "status": "open",
+      "created_by": "quant_builder",
+      "note": "CRS suggests closure-like conditions can arise from threats alone, without actual mining; critical for duration assumptions; difficulty: complex",
+      "created_at": "2026-03-18T06:37:42",
+      "updated_at": "2026-03-18T06:37:42"
     }
   ]
 }

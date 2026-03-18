@@ -363,5 +363,623 @@
     "status": "needs_revision",
     "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
     "created_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "CLM_164b4030",
+    "statement": "The Iran-USA-Israel war in 2026 has led to significant disruptions in the oil market",
+    "agent_role": "qual_builder",
+    "confidence": 0.9,
+    "materiality": "core",
+    "kind": "finding",
+    "source_ids": [
+      "SRC_fc70646d",
+      "SRC_20d8981e",
+      "SRC_c8fed78e"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062929_qual_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:29:29"
+  },
+  {
+    "id": "CLM_cebe8eb4",
+    "statement": "A prolonged closure of the Strait of Hormuz is a guaranteed global recession",
+    "agent_role": "qual_builder",
+    "confidence": 0.95,
+    "materiality": "core",
+    "kind": "finding",
+    "source_ids": [
+      "SRC_fc70646d",
+      "SRC_20d8981e"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062929_qual_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:29:29"
+  },
+  {
+    "id": "CLM_4e10700c",
+    "statement": "The conflict has caused extreme volatility in the oil market",
+    "agent_role": "qual_builder",
+    "confidence": 0.9,
+    "materiality": "supporting",
+    "kind": "finding",
+    "source_ids": [
+      "SRC_c8fed78e"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062929_qual_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:29:29"
+  },
+  {
+    "id": "CLM_2c331240",
+    "statement": "The US SPR current level is approximately 388 million barrels.",
+    "agent_role": "qual_builder",
+    "confidence": 0.9,
+    "materiality": "core",
+    "kind": "finding",
+    "source_ids": [
+      "SRC_adc6d39b"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062934_qual_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources.",
+    "created_at": "2026-03-18T06:29:34"
+  },
+  {
+    "id": "CLM_a72fed30",
+    "statement": "Saudi Arabia has decided to increase OPEC+ production at a slower pace.",
+    "agent_role": "qual_builder",
+    "confidence": 0.8,
+    "materiality": "supporting",
+    "kind": "context",
+    "source_ids": [
+      "SRC_179778fb"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062934_qual_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:29:34"
+  },
+  {
+    "id": "CLM_385cb4a9",
+    "statement": "The Ruwais refinery fire has been largely contained.",
+    "agent_role": "qual_builder",
+    "confidence": 0.8,
+    "materiality": "supporting",
+    "kind": "context",
+    "source_ids": [
+      "SRC_2b5aed62"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_062934_qual_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:29:34"
+  },
+  {
+    "id": "CLM_44508a03",
+    "statement": "Brent crude rose +8.3% from $71.32 to $77.24 in the two trading days bracketing the Feb 28, 2026 US-Israel strike on Iran",
+    "agent_role": "quant_builder",
+    "confidence": 0.99,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_fc70646d",
+      "SRC_85a9de03"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_a3da6dfc",
+    "statement": "Brent crude reached an intraday peak of $119.50/bbl on March 9, 2026 \u2014 a +67.6% increase from pre-war levels in just 7 trading days",
+    "agent_role": "quant_builder",
+    "confidence": 0.99,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_85a9de03",
+      "SRC_72511336"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_ac332558",
+    "statement": "On March 10, 2026, Brent crude dropped approximately \u221225% from its peak following Trump's 'very soon' social media post, one of the largest single-day oil reversals in modern history",
+    "agent_role": "quant_builder",
+    "confidence": 0.97,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_85a9de03"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_500614f3",
+    "statement": "Iranian drone strikes on Ras Laffan (March 2) forced QatarEnergy to halt ~10.2 Bcf/d of LNG supply (~20% of global LNG trade), the longest shutdown since 2008",
+    "agent_role": "quant_builder",
+    "confidence": 0.98,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_277bfc6b",
+      "SRC_1790ee8d"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_9c5de94f",
+    "statement": "TTF natural gas surged ~70% in two trading sessions (\u20ac31.6 \u2192 \u20ac53/MWh close; \u20ac62.5 intraday) following Ras Laffan shutdown and Hormuz closure",
+    "agent_role": "quant_builder",
+    "confidence": 0.97,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_277bfc6b",
+      "SRC_1790ee8d"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_24ce25ef",
+    "statement": "European gas (TTF) prices rose 63% and Asian LNG 54% in the week after war started; US Henry Hub rose only 7%, remaining largely insulated",
+    "agent_role": "quant_builder",
+    "confidence": 0.99,
+    "materiality": "core",
+    "kind": "comparison",
+    "source_ids": [
+      "SRC_fc70646d"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_c7cc75a3",
+    "statement": "Goldman Sachs estimates TTF could reach \u20ac74/MWh if Hormuz closed for 1 month, and exceed \u20ac100/MWh if closed for 2+ months (vs \u20ac31.6 pre-war)",
+    "agent_role": "quant_builder",
+    "confidence": 0.95,
+    "materiality": "core",
+    "kind": "risk",
+    "source_ids": [
+      "SRC_7461d0cf",
+      "SRC_277bfc6b"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_3af42578",
+    "statement": "The 2026 Iran war produced the fastest proportional oil price spike of any major conflict in modern history, matching Russia-Ukraine 2022's peak gain in under half the time",
+    "agent_role": "quant_builder",
+    "confidence": 0.88,
+    "materiality": "supporting",
+    "kind": "comparison",
+    "source_ids": [
+      "SRC_85a9de03",
+      "SRC_72511336",
+      "SRC_fc70646d"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_16666552",
+    "statement": "The S&P 500 fell approximately \u221212.3% from pre-war levels to a trough around March 9, 2026, partially recovering after Trump's de-escalation signal",
+    "agent_role": "quant_builder",
+    "confidence": 0.8,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_85a9de03",
+      "SRC_10256f8e"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_8baac4ee",
+    "statement": "US average gasoline prices rose from $3.00/gallon pre-war to an estimated ~$3.68/gallon peak (+22.7%), threatening to reverse the Trump administration's celebrated energy price declines",
+    "agent_role": "quant_builder",
+    "confidence": 0.85,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_10256f8e"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_cb5db345",
+    "statement": "War-risk insurance premiums for Hormuz tanker transits rose from 0.125% to 0.2-0.4% of vessel value per transit \u2014 representing a ~$250,000 increase per voyage for VLCCs",
+    "agent_role": "quant_builder",
+    "confidence": 0.97,
+    "materiality": "supporting",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_34e02f5a"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_99336af5",
+    "statement": "Iran's Hormuz closure is historically unprecedented in scope; the Strait carries ~20% of global seaborne oil and LNG, and a prolonged closure would exceed any prior historical supply disruption",
+    "agent_role": "quant_builder",
+    "confidence": 0.95,
+    "materiality": "core",
+    "kind": "risk",
+    "source_ids": [
+      "SRC_fc70646d",
+      "SRC_7461d0cf"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_1b3a85f3",
+    "statement": "At least 8 LNG tankers diverted from Europe to Asia following Qatar shutdown, compounding European gas prices beyond the primary supply shock",
+    "agent_role": "quant_builder",
+    "confidence": 0.93,
+    "materiality": "supporting",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_cbebddc4"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_626e832e",
+    "statement": "OPEC+ boosted output by 206,000 bpd post-Iran strikes, but analysts noted this was insufficient to offset Hormuz-related supply disruption and highlighted limited spare capacity",
+    "agent_role": "quant_builder",
+    "confidence": 0.95,
+    "materiality": "supporting",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_10256f8e"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815441_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815466_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815489_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815525_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063338_quant_builder_turn01.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "CLM_14194e01",
+    "statement": "Brent crude surged from $71.32/bbl (Feb 27, pre-war) to a peak of $119.48/bbl on March 11 \u2014 a +67.5% increase in 11 trading days.",
+    "agent_role": "quant_builder",
+    "confidence": 0.95,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_fc70646d",
+      "SRC_1a85f0f7"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_d6341748",
+    "statement": "US announced 172Mb SPR release on March 11, 2026 \u2014 the 2nd largest in SPR history, as part of IEA's coordinated 400Mb release across 32 nations.",
+    "agent_role": "quant_builder",
+    "confidence": 0.98,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_dd36a2d3",
+      "SRC_c3a8ab3c",
+      "SRC_fc70646d",
+      "SRC_a27ac65e"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_6e603ce6",
+    "statement": "Post-release SPR inventory will fall to ~243 million barrels \u2014 the lowest level in 44 years (since 1982), leaving ~24-30 days of buffer at full Hormuz closure rates.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "core",
+    "kind": "risk",
+    "source_ids": [
+      "SRC_c3a8ab3c",
+      "SRC_fc70646d"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_fbf0c63a",
+    "statement": "The oil-to-CPI pass-through from a +67.5% Brent shock implies a headline CPI increase of +2.0pp to +3.7pp, lifting US CPI from 2.8% pre-war to 4.8%\u20136.5%, with a mid-estimate of ~5.6%.",
+    "agent_role": "quant_builder",
+    "confidence": 0.75,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_90a0ee1f",
+      "SRC_1a85f0f7",
+      "SRC_b6e0795f",
+      "SRC_a218f1ed"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_a731ba0a",
+    "statement": "The March 15 sentiment shift confirmed: Brent fell -18.5% from $119.48 to ~$97 between March 11\u201315, driven by the IEA/SPR coordinated release announcement.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "supporting",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_dd36a2d3",
+      "SRC_1a85f0f7",
+      "SRC_b6e0795f"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_64832bb9",
+    "statement": "Saudi Arabia strategically ramped production from ~9.0 to ~9.8 Mb/d in February 2026 (+8.9%), partially offset by Iranian strikes on Gulf energy infrastructure from March 8.",
+    "agent_role": "quant_builder",
+    "confidence": 0.65,
+    "materiality": "supporting",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_b6e0795f",
+      "SRC_6e5dd509",
+      "SRC_a27ac65e"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_5a720c3e",
+    "statement": "Hormuz flow fell to <10% of pre-war levels; IEA expects Iran war to cut regional oil and gas production by at least 10 million barrels/day.",
+    "agent_role": "quant_builder",
+    "confidence": 0.92,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_a27ac65e",
+      "SRC_fc70646d"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_50dab4bc",
+    "statement": "US retail gasoline prices rose 21.8% from $2.98 to $3.63/gal by mid-March 2026; diesel rose ~90 cents/gal in one week.",
+    "agent_role": "quant_builder",
+    "confidence": 0.95,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_c3a8ab3c",
+      "SRC_90a0ee1f"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_d45ae732",
+    "statement": "The 2026 Iran war oil price spike (+67.5%) exceeded the Ukraine 2022 peak (+44.8%) but remains below the Gulf War 1990 cumulative peak (+135% over 90 days).",
+    "agent_role": "quant_builder",
+    "confidence": 0.85,
+    "materiality": "supporting",
+    "kind": "comparison",
+    "source_ids": [
+      "SRC_1a85f0f7",
+      "SRC_a218f1ed"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "CLM_e10681e8",
+    "statement": "Goldman Sachs Q4 2026 Brent forecast is $71/bbl \u2014 near pre-war levels \u2014 implying market expects conflict resolution and supply recovery within 6\u20139 months.",
+    "agent_role": "quant_builder",
+    "confidence": 0.88,
+    "materiality": "supporting",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_b6e0795f",
+      "SRC_6e5dd509"
+    ],
+    "artifact_paths": [
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815700_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815738_01.png",
+      "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773815774_01.png"
+    ],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_063742_quant_builder_turn02.md",
+    "status": "verified",
+    "verification_notes": "Claim has sufficient provenance.",
+    "created_at": "2026-03-18T06:37:42"
   }
 ]

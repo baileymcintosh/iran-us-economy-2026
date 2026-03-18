@@ -29,11 +29,11 @@
     "owner": "qual",
     "priority": "high",
     "difficulty": "complex",
-    "status": "in_progress",
+    "status": "done",
     "created_by": "quant_builder",
     "note": "Critical for duration-of-shock estimate which drives recession vs. soft-landing scenarios.",
     "created_at": "2026-03-18T06:14:46",
-    "updated_at": "2026-03-18T06:27:43"
+    "updated_at": "2026-03-18T06:29:29"
   },
   {
     "id": "A_cc9aecdc",
@@ -53,11 +53,11 @@
     "owner": "qual",
     "priority": "high",
     "difficulty": "complex",
-    "status": "open",
+    "status": "done",
     "created_by": "quant_builder",
     "note": "A major policy lever that could cap oil prices; Trump mentioned 'risk insurance' for tankers but SPR deployment not confirmed in sources.",
     "created_at": "2026-03-18T06:14:46",
-    "updated_at": "2026-03-18T06:14:46"
+    "updated_at": "2026-03-18T06:29:34"
   },
   {
     "id": "A_f5de2723",
@@ -77,11 +77,11 @@
     "owner": "qual",
     "priority": "high",
     "difficulty": "simple",
-    "status": "in_progress",
+    "status": "done",
     "created_by": "quant_builder",
     "note": "CNBC reported Ruwais closed due to fire; this materially caps UAE ADCOP bypass at <1.8 mbd and changes the supply gap arithmetic.",
     "created_at": "2026-03-18T06:17:32",
-    "updated_at": "2026-03-18T06:27:43"
+    "updated_at": "2026-03-18T06:29:29"
   },
   {
     "id": "A_ad6d981e",
@@ -89,11 +89,11 @@
     "owner": "shared",
     "priority": "high",
     "difficulty": "simple",
-    "status": "in_progress",
+    "status": "done",
     "created_by": "quant_builder",
     "note": "Qatar LNG halt has direct European energy security implications distinct from the crude oil story.",
     "created_at": "2026-03-18T06:17:32",
-    "updated_at": "2026-03-18T06:27:43"
+    "updated_at": "2026-03-18T06:29:29"
   },
   {
     "id": "A_31cf0b87",
@@ -113,10 +113,154 @@
     "owner": "qual",
     "priority": "high",
     "difficulty": "complex",
-    "status": "open",
+    "status": "done",
     "created_by": "quant_builder",
     "note": "The 206k bpd increase vs. 4.1 mbd spare is conspicuously small. Saudi incentive structure under Hormuz closure is a key geopolitical question.",
     "created_at": "2026-03-18T06:17:32",
-    "updated_at": "2026-03-18T06:17:32"
+    "updated_at": "2026-03-18T06:29:34"
+  },
+  {
+    "id": "A_fa08d7ec",
+    "question": "What is the current status of the UAE's Ruwais refinery fire and its impact on the oil market?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "done",
+    "created_by": "qual_builder",
+    "note": "Follow-up on the cause of the fire and its implications",
+    "created_at": "2026-03-18T06:29:29",
+    "updated_at": "2026-03-18T06:29:34"
+  },
+  {
+    "id": "A_1c28a6dc",
+    "question": "How will the conflict affect the global economy in the long term?",
+    "owner": "shared",
+    "priority": "medium",
+    "difficulty": "complex",
+    "status": "done",
+    "created_by": "qual_builder",
+    "note": "Further analysis on the potential long-term effects of the conflict",
+    "created_at": "2026-03-18T06:29:29",
+    "updated_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "A_25a03d97",
+    "question": "What is the impact of the US SPR release on the oil market?",
+    "owner": "shared",
+    "priority": "medium",
+    "difficulty": "complex",
+    "status": "done",
+    "created_by": "qual_builder",
+    "note": "Follow-up on the US SPR release announcement",
+    "created_at": "2026-03-18T06:29:34",
+    "updated_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "A_08063abd",
+    "question": "How will Saudi Arabia's production strategy affect the global economy?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "qual_builder",
+    "note": "Analysis of the potential economic implications",
+    "created_at": "2026-03-18T06:29:34",
+    "updated_at": "2026-03-18T06:29:34"
+  },
+  {
+    "id": "A_5d7db603",
+    "question": "What is the current diplomatic status of the Hormuz closure, and has any shipping resumed?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "Critical for TTF/oil scenario forecasting \u2014 GS \u20ac74 vs \u20ac100 scenario depends entirely on duration",
+    "created_at": "2026-03-18T06:33:38",
+    "updated_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "A_f02e4dcc",
+    "question": "Was Trump's March 10 'very soon' statement backed by any actual diplomatic back-channel, or purely a market-calming social media post?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "Markets reversed 25% on this signal; durability of the move depends on substance behind it",
+    "created_at": "2026-03-18T06:33:38",
+    "updated_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "A_c3448998",
+    "question": "What is the quantified inflation impact on US CPI from the oil/gas shock \u2014 model the pass-through from $71\u2192$119 Brent to headline CPI",
+    "owner": "quant",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "done",
+    "created_by": "quant_builder",
+    "note": "Need FRED CPI data + energy weight to build inflation pass-through model",
+    "created_at": "2026-03-18T06:33:38",
+    "updated_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "A_9c336547",
+    "question": "Has the US activated SPR releases, and what is remaining SPR capacity to buffer sustained Hormuz closure?",
+    "owner": "shared",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "done",
+    "created_by": "quant_builder",
+    "note": "SPR was mentioned as under consideration; actual release data needed for supply-side modeling",
+    "created_at": "2026-03-18T06:33:38",
+    "updated_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "A_88729962",
+    "question": "What is the European industrial production exposure to TTF >\u20ac74/MWh \u2014 energy-intensive sectors at risk of shutdown?",
+    "owner": "qual",
+    "priority": "medium",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "2022 precedent: German chemical, steel, fertilizer plants curtailed at similar price levels",
+    "created_at": "2026-03-18T06:33:38",
+    "updated_at": "2026-03-18T06:33:38"
+  },
+  {
+    "id": "A_005e5f19",
+    "question": "What is the actual measured CPI print for March-April 2026, and has it confirmed the oil pass-through estimate?",
+    "owner": "quant",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "Need FRED CPIAUCSL data for March/April 2026 to verify model estimate of +2.8pp vs actual; difficulty: simple",
+    "created_at": "2026-03-18T06:37:42",
+    "updated_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "A_10367742",
+    "question": "Has Iran actually succeeded in fully closing Hormuz, or is it a 'soft closure' via threats deterring tanker traffic?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "CRS suggests closure-like conditions can arise from threats alone, without actual mining; critical for duration assumptions; difficulty: complex",
+    "created_at": "2026-03-18T06:37:42",
+    "updated_at": "2026-03-18T06:37:42"
+  },
+  {
+    "id": "A_a980a20d",
+    "question": "What is the SPR replenishment plan timeline and credibility \u2014 can the US actually replace 172Mb within one year at current market prices?",
+    "owner": "shared",
+    "priority": "medium",
+    "difficulty": "simple",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "Wright promised ~200Mb replenishment within a year; at $70-80/bbl that costs $14-16B; needs budget/authorization analysis; difficulty: complex",
+    "created_at": "2026-03-18T06:37:42",
+    "updated_at": "2026-03-18T06:37:42"
   }
 ]
