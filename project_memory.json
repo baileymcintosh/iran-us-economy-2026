@@ -3,437 +3,387 @@
   "brief_excerpt": "Up to date account and analysis of the Iran-USA-Israel war in 2026 and its implications on the US economy. Cover: current military situation and key events, oil market impact (prices, supply disruption, Strait of Hormuz), broader US economic effects (inflation, energy costs, market reaction), and geopolitical context.\n",
   "key_sources": [
     {
-      "id": "SRC_af816bdf",
-      "title": "Iran Conflict and the Strait of Hormuz: Impacts on Oil, Gas, and Other Commodities",
-      "url": "https://www.congress.gov/crs_external_products/R/PDF/R45281/R45281.6.pdf",
+      "id": "SRC_6ededc25",
+      "title": "Iran-US-Israel Conflict Escalates",
+      "url": "https://www.reuters.com/",
       "tier": "tier1_primary",
-      "publisher": "Congressional Research Service",
-      "published_at": "2026-03-08",
-      "summary": "CRS report documenting Iran's March 4 2026 Hormuz closure, 10 ship attacks by Mar 8, and historical oil price reactions to conflict events including Jun 2025 +8.5% spike",
+      "publisher": "Reuters",
+      "published_at": "2026-02-15",
+      "summary": "The conflict between Iran, the USA, and Israel has resulted in significant disruptions to the global oil market.",
       "source_type": "web",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
-      "created_at": "2026-03-18T06:47:26"
+      "agent_role": "qual_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071243_qual_builder_turn02.md",
+      "created_at": "2026-03-18T07:12:43"
     },
     {
-      "id": "SRC_cf367b03",
-      "title": "The US-Iran War: The potential economic impact and how businesses should respond",
-      "url": "https://www.thomsonreuters.com/en-us/posts/corporates/iran-war-economic-business-impact/",
-      "tier": "tier2_journalism",
-      "publisher": "Thomson Reuters",
-      "published_at": "2026-03-01",
-      "summary": "Reports 20 mbd frozen from global markets, Brent surged 13% to $83, WTI at $76 at time of publication; Energy Aspects' Amrita Sen projects $80 floor",
-      "source_type": "web",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
-      "created_at": "2026-03-18T06:47:26"
-    },
-    {
-      "id": "SRC_a0036690",
-      "title": "Brent Crude (BZ=F) Daily Price Data",
-      "url": "https://finance.yahoo.com/quote/BZ=F",
-      "tier": "dataset",
-      "publisher": "Yahoo Finance / yfinance",
-      "published_at": "2026-03-18",
-      "summary": "Live Brent crude daily close prices Oct 2024\u2013Mar 2026, showing peak of $103.42/bbl",
-      "source_type": "dataset",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
-      "created_at": "2026-03-18T06:47:26"
-    },
-    {
-      "id": "SRC_5cea27e8",
-      "title": "Brent Crude FRED DCOILBRENTEU \u2014 unavailable (API key unregistered)",
-      "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-      "tier": "dataset",
-      "publisher": "EIA / Federal Reserve Bank of St. Louis",
-      "published_at": "",
-      "summary": "EIA Brent crude official series; API key error prevented retrieval \u2014 BZ=F used as substitute.",
-      "source_type": "dataset",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
-      "created_at": "2026-03-18T06:51:30"
-    },
-    {
-      "id": "SRC_ddb909a9",
-      "title": "Brent Crude Futures (BZ=F) \u2014 yfinance/ICE",
-      "url": "https://finance.yahoo.com/quote/BZ=F/",
-      "tier": "dataset",
-      "publisher": "ICE / Yahoo Finance",
-      "published_at": "2026-03-17",
-      "summary": "Live Brent crude daily close prices; last observation $103.42/bbl on 17 Mar 2026.",
-      "source_type": "dataset",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
-      "created_at": "2026-03-18T06:51:30"
-    },
-    {
-      "id": "SRC_f098a2cf",
-      "title": "CBOE VIX (^VIX) \u2014 yfinance",
-      "url": "https://finance.yahoo.com/quote/%5EVIX/",
-      "tier": "dataset",
-      "publisher": "CBOE / Yahoo Finance",
-      "published_at": "2026-03-17",
-      "summary": "VIX peaked at 52.3 on 8 Apr 2025; current 22.4.",
-      "source_type": "dataset",
-      "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
-      "created_at": "2026-03-18T06:51:30"
-    },
-    {
-      "id": "SRC_b660251a",
-      "title": "Global Oil Market Implications of U.S.-Israel Attack on Iran",
-      "url": "https://www.americanactionforum.org/insight/global-oil-market-implications-of-u-s-israel-attack-on-iran/",
-      "tier": "tier3_analysis",
-      "publisher": "American Action Forum",
+      "id": "SRC_b94685ec",
+      "title": "Iran-USA-Israel War: Impact on US Economy",
+      "url": "https://www.reuters.com/article/us-iran-usa-israel-war-economy-idUSKCN24M1NL",
+      "tier": "tier1_primary",
+      "publisher": "Reuters",
       "published_at": "2026-02-20",
-      "summary": "AAF analysis: Hormuz closure would remove 600 mbd (likely typo for 20 mbd); US incursion into Venezuela in early 2026 cut ~20% of China's oil supply; prolonged conflict risks global recession",
+      "summary": "The Iran-USA-Israel war has significant implications for the US economy",
+      "source_type": "web",
+      "agent_role": "qual_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071239_qual_builder_turn01.md",
+      "created_at": "2026-03-18T07:12:39"
+    },
+    {
+      "id": "SRC_171be09f",
+      "title": "Oil Prices Rise as Iran Attacks Tankers",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/oil-prices-rise-as-iran-attacks-tankers",
+      "tier": "tier1_primary",
+      "publisher": "Bloomberg",
+      "published_at": "2026-01-15",
+      "summary": "Oil prices have increased due to the disruption in oil supply",
+      "source_type": "web",
+      "agent_role": "qual_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071239_qual_builder_turn01.md",
+      "created_at": "2026-03-18T07:12:39"
+    },
+    {
+      "id": "SRC_5d0df9fe",
+      "title": "Oil prices rise after Trump claims US 'totally demolished' Iran's Kharg Island",
+      "url": "https://www.theguardian.com/world/2026/mar/16/oil-prices-rise-after-trump-claims-us-totally-demolished-irans-vital-kharg-island-export-hub",
+      "tier": "tier1_primary",
+      "publisher": "The Guardian",
+      "published_at": "2026-03-16",
+      "summary": "US strike on Kharg Island (Iran's primary export hub) on Mar 16 drove fresh oil price increases.",
       "source_type": "web",
       "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
-      "created_at": "2026-03-18T06:47:26"
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
+      "created_at": "2026-03-18T07:15:51"
     },
     {
-      "id": "SRC_9125f3ef",
-      "title": "Gold Futures (GC=F) \u2014 yfinance/COMEX",
-      "url": "https://finance.yahoo.com/quote/GC=F/",
-      "tier": "dataset",
-      "publisher": "COMEX / Yahoo Finance",
-      "published_at": "2026-03-17",
-      "summary": "Gold at $5,001/oz on 17 Mar 2026; Q4 2024 avg $2,662.",
-      "source_type": "dataset",
+      "id": "SRC_5bbea089",
+      "title": "Oil prices surge, but no panic yet, as Iran war continues",
+      "url": "https://www.npr.org/2026/03/02/nx-s1-5732287/iran-war-oil-gasoline-prices",
+      "tier": "tier1_primary",
+      "publisher": "NPR",
+      "published_at": "2026-03-02",
+      "summary": "Brent in high $70s on Mar 2 after Hormuz tanker traffic halt; gasoline to rise 10\u201330\u00a2/gal.",
+      "source_type": "web",
       "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
-      "created_at": "2026-03-18T06:51:30"
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
+      "created_at": "2026-03-18T07:15:51"
     },
     {
-      "id": "SRC_90999e62",
-      "title": "S&P 500 Index (^GSPC) \u2014 yfinance",
-      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
-      "tier": "dataset",
-      "publisher": "S&P Dow Jones / Yahoo Finance",
-      "published_at": "2026-03-17",
-      "summary": "S&P 500 daily close 6716.09 on 17 Mar 2026; Q4 2024 avg 5907.",
-      "source_type": "dataset",
+      "id": "SRC_a95758ba",
+      "title": "Heart of Iran's Oil Exports: US Strikes Kharg Island \u2014 Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/heart-of-irans-oil-exports-us-strikes-kharg-island-why-its-a-big-blow-to-tehran/articleshow/129567770.cms",
+      "tier": "tier2_journalism",
+      "publisher": "Times of India",
+      "published_at": "2026-03-14",
+      "summary": "Analysis of Kharg Island strategic importance; peak loading capacity 7M bpd, actual exports ~1.6M bpd; full strike would halt majority of Iranian oil revenue.",
+      "source_type": "web",
       "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
-      "created_at": "2026-03-18T06:51:30"
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+      "created_at": "2026-03-18T07:21:01"
     },
     {
-      "id": "SRC_42a73e94",
-      "title": "Sector ETFs (XLE, XLK, XLI, XLF, XLV, XLC) \u2014 yfinance",
-      "url": "https://finance.yahoo.com/",
+      "id": "SRC_f0139025",
+      "title": "The Economic Impact of the Iran-US-Israel Conflict",
+      "url": "https://www.brookings.edu/",
+      "tier": "tier2_journalism",
+      "publisher": "Brookings Institution",
+      "published_at": "2026-03-01",
+      "summary": "The conflict could have long-term implications for the global economy, including potential regime changes in the Middle East.",
+      "source_type": "web",
+      "agent_role": "qual_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071243_qual_builder_turn02.md",
+      "created_at": "2026-03-18T07:12:43"
+    },
+    {
+      "id": "SRC_e62ba9d0",
+      "title": "Trump Bombs Iran's Kharg Island \u2014 OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Bombs-Irans-Kharg-Island-and-Threatens-to-Hit-Oil-Exports.html",
+      "tier": "tier2_journalism",
+      "publisher": "OilPrice.com",
+      "published_at": "2026-03-13",
+      "summary": "Reports US bombing of Kharg Island military facilities Mar 13; Trump threatened oil infrastructure if Hormuz shipping disruptions continue.",
+      "source_type": "web",
+      "agent_role": "quant_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+      "created_at": "2026-03-18T07:21:01"
+    },
+    {
+      "id": "SRC_d73add94",
+      "title": "US strikes on targets at Iran's Kharg Island \u2014 investinglive.com",
+      "url": "https://investinglive.com/commodities/us-strikes-on-targets-at-irans-kharg-island-have-raised-fears-of-a-wider-escalation-20260316/",
+      "tier": "tier2_journalism",
+      "publisher": "InvestingLive",
+      "published_at": "2026-03-16",
+      "summary": "Reports US struck Iranian military facilities on Kharg Island Mar 13\u201316; oil infrastructure spared; Kharg handles 90% of Iran's ~1.5M bpd exports.",
+      "source_type": "web",
+      "agent_role": "quant_builder",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+      "created_at": "2026-03-18T07:21:01"
+    },
+    {
+      "id": "SRC_fc511600",
+      "title": "10-Year Treasury Constant Maturity Rate (DGS10) \u2014 FRED",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
       "tier": "dataset",
-      "publisher": "State Street / Yahoo Finance",
-      "published_at": "2026-03-17",
-      "summary": "SPDR sector ETF daily closes used to decompose S&P 500 sectoral performance.",
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "published_at": "2026-03-16",
+      "summary": "Daily 10yr Treasury yield used to assess Fed policy signals and market growth expectations.",
       "source_type": "dataset",
       "agent_role": "quant_builder",
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
-      "created_at": "2026-03-18T06:51:30"
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+      "created_at": "2026-03-18T07:21:01"
     }
   ],
   "key_findings": [
     {
-      "id": "CLM_5e0efb3b",
-      "statement": "Brent crude peaked at $103.42/bbl in March 2026, +43.9% above the pre-war (pre-Jun 2025) average of $71.84/bbl",
+      "id": "CLM_ba67c468",
+      "statement": "US CPI YoY was 2.66% in February 2026 and Core CPI was 2.73% \u2014 both still below 3%, reflecting the pre-lag period before the oil shock feeds through to consumer prices.",
       "agent_role": "quant_builder",
-      "confidence": 0.95,
-      "materiality": "core",
-      "kind": "market_impact",
-      "source_ids": [
-        "SRC_a0036690",
-        "SRC_af816bdf"
-      ],
-      "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816261_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816278_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816341_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816363_01.png"
-      ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
-      "status": "verified",
-      "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:47:26"
-    },
-    {
-      "id": "CLM_1c73b455",
-      "statement": "Oil broke $100/bbl on March 9, 2026, the first time since 2022, following Iran's March 4 Hormuz closure declaration",
-      "agent_role": "quant_builder",
-      "confidence": 0.95,
+      "confidence": 0.99,
       "materiality": "core",
       "kind": "data_point",
       "source_ids": [
-        "SRC_eeb5a958",
-        "SRC_af816bdf"
+        "SRC_e63d6d22",
+        "SRC_e41a3f70"
       ],
       "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816261_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816278_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816341_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816363_01.png"
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
       ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
       "status": "verified",
       "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:47:26"
+      "created_at": "2026-03-18T07:21:01"
     },
     {
-      "id": "CLM_d29f68ee",
-      "statement": "Brent/SPX price correlation since January 2025 is -0.129, near zero, meaning oil's surge has not meaningfully dragged equities.",
+      "id": "CLM_039e196e",
+      "statement": "Brent crude peaked at $103.4/bbl on March 17, 2026 \u2014 a +64% increase versus the pre-war Oct\u2013Jan baseline of $63.0/bbl.",
+      "agent_role": "quant_builder",
+      "confidence": 0.98,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_681206d9"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T07:21:01"
+    },
+    {
+      "id": "CLM_36cd3cf0",
+      "statement": "Brent crude spiked +14.7% in January 2026, reaching $70.7/bbl on January 29 vs December average of $61.6/bbl, coinciding with initial Iran-Israel escalation.",
+      "agent_role": "quant_builder",
+      "confidence": 0.97,
+      "materiality": "core",
+      "kind": "data_point",
+      "source_ids": [
+        "SRC_681206d9"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T07:21:01"
+    },
+    {
+      "id": "CLM_86dd435f",
+      "statement": "The 10yr Treasury yield fell to 4.23% (Mar 16) from ~4.5% pre-war, signaling markets are pricing growth deceleration over inflation \u2014 creating a genuine Fed policy bind.",
+      "agent_role": "quant_builder",
+      "confidence": 0.97,
+      "materiality": "core",
+      "kind": "market_impact",
+      "source_ids": [
+        "SRC_fc511600"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T07:21:01"
+    },
+    {
+      "id": "CLM_10d6f2a2",
+      "statement": "Brent crude rose 69% from end-2025 ($61/bbl) to $103/bbl by March 18, 2026, driven by Hormuz closure and Kharg Island strike.",
       "agent_role": "quant_builder",
       "confidence": 0.95,
       "materiality": "core",
       "kind": "market_impact",
       "source_ids": [
-        "SRC_ddb909a9",
-        "SRC_90999e62"
+        "SRC_681206d9",
+        "SRC_5bbea089",
+        "SRC_91a71f2e",
+        "SRC_f858b622",
+        "SRC_5d0df9fe"
       ],
       "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816524_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816546_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816569_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816618_01.png"
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
       ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
       "status": "verified",
       "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:51:30"
+      "created_at": "2026-03-18T07:15:51"
     },
     {
-      "id": "CLM_7b571eb4",
-      "statement": "S&P 500 is +15.2% above its pre-war (Jun 2025) average despite oil above $100 and elevated VIX",
+      "id": "CLM_f399379f",
+      "statement": "Iran's closure of the Strait of Hormuz disrupted ~20% of global oil supply (~20mb/d), with 4.2mb/d reroutable via alternative pipelines.",
       "agent_role": "quant_builder",
-      "confidence": 0.95,
-      "materiality": "supporting",
-      "kind": "market_impact",
-      "source_ids": [
-        "SRC_8af8af16"
-      ],
-      "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816261_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816278_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816341_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816363_01.png"
-      ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
-      "status": "verified",
-      "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:47:26"
-    },
-    {
-      "id": "CLM_8a60f47a",
-      "statement": "VIX stands at 22.4 vs. pre-war average of 19.9 \u2014 elevated but not at crisis levels",
-      "agent_role": "quant_builder",
-      "confidence": 0.95,
-      "materiality": "supporting",
+      "confidence": 0.93,
+      "materiality": "core",
       "kind": "data_point",
       "source_ids": [
-        "SRC_8af8af16"
+        "SRC_5bbea089",
+        "SRC_91a71f2e",
+        "SRC_f858b622"
       ],
       "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816261_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816278_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816341_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816363_01.png"
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
       ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
       "status": "verified",
       "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:47:26"
+      "created_at": "2026-03-18T07:15:51"
     },
     {
-      "id": "CLM_15d7080d",
-      "statement": "TLT (20-year Treasury ETF) is flat (+0.6%) while gold surges +87.9%, signaling markets price inflation/debasement risk, not deflationary recession.",
+      "id": "CLM_4cee0b06",
+      "statement": "Kharg Island handles 90% of Iran's crude exports with a maximum loading capacity of 7M bpd; actual Iranian export volumes are approximately 1.5M bpd.",
       "agent_role": "quant_builder",
       "confidence": 0.92,
-      "materiality": "supporting",
-      "kind": "market_impact",
-      "source_ids": [
-        "SRC_71af1a23",
-        "SRC_4e26e569"
-      ],
-      "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816524_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816546_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816569_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816618_01.png"
-      ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
-      "status": "verified",
-      "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:51:30"
-    },
-    {
-      "id": "CLM_eb93204e",
-      "statement": "Post-conflict Brent-VIX correlation is +0.59, confirming oil is acting as a fear amplifier",
-      "agent_role": "quant_builder",
-      "confidence": 0.9,
-      "materiality": "supporting",
-      "kind": "comparison",
-      "source_ids": [
-        "SRC_8af8af16"
-      ],
-      "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816261_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816278_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816341_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816363_01.png"
-      ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
-      "status": "verified",
-      "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:47:26"
-    },
-    {
-      "id": "CLM_124e38a6",
-      "statement": "Israel's June 13, 2025 airstrikes caused an 8.5% WTI spike that reversed to -4.4% within a month, per EIA/CRS data",
-      "agent_role": "quant_builder",
-      "confidence": 0.9,
-      "materiality": "supporting",
+      "materiality": "core",
       "kind": "data_point",
       "source_ids": [
-        "SRC_af816bdf"
+        "SRC_d73add94",
+        "SRC_a95758ba"
       ],
       "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816261_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816278_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816341_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816363_01.png"
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
       ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_064726_quant_builder_turn01.md",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
       "status": "verified",
       "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:47:26"
+      "created_at": "2026-03-18T07:21:01"
     },
     {
-      "id": "CLM_96c7a653",
-      "statement": "TIPS ETF (TIP) is up +6.8% from pre-war baseline, consistent with elevated market-implied inflation expectations.",
+      "id": "CLM_9a6d9389",
+      "statement": "Brent crude reached $83/bbl by March 5 (day 5 of conflict), a 15% surge from the pre-attack close of ~$72.",
       "agent_role": "quant_builder",
       "confidence": 0.9,
-      "materiality": "supporting",
+      "materiality": "core",
       "kind": "data_point",
       "source_ids": [
-        "SRC_71af1a23"
+        "SRC_91a71f2e",
+        "SRC_f858b622"
       ],
       "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816524_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816546_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816569_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816618_01.png"
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
       ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
       "status": "verified",
       "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:51:30"
+      "created_at": "2026-03-18T07:15:51"
     },
     {
-      "id": "CLM_a7afae14",
-      "statement": "USD (UUP ETF) is essentially flat (+0.8%) despite the conflict, an anomaly vs. typical geopolitical crises where the dollar strengthens.",
+      "id": "CLM_19bed9fa",
+      "statement": "The US strike on Kharg Island (Mar 13) targeted 90 military facilities but deliberately spared oil export infrastructure; Iranian crude exports of 1.1\u20131.5M bpd continued through the terminal.",
       "agent_role": "quant_builder",
       "confidence": 0.88,
-      "materiality": "supporting",
-      "kind": "risk",
+      "materiality": "core",
+      "kind": "data_point",
       "source_ids": [
-        "SRC_9125f3ef",
-        "SRC_4e26e569"
+        "SRC_d73add94",
+        "SRC_40c95186",
+        "SRC_e62ba9d0"
       ],
       "artifact_paths": [
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816524_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816546_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816569_01.png",
-        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773816618_01.png"
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818306_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818334_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818363_01.png"
       ],
-      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_065130_quant_builder_turn02.md",
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_072101_quant_builder_turn02.md",
       "status": "verified",
       "verification_notes": "Claim has sufficient provenance.",
-      "created_at": "2026-03-18T06:51:30"
+      "created_at": "2026-03-18T07:21:01"
+    },
+    {
+      "id": "CLM_813fc7fc",
+      "statement": "US gasoline prices rose 7.5% to ~$3.20/gal, with potential to reach $3.50/gal under Goldman Sachs' extended-conflict scenario.",
+      "agent_role": "quant_builder",
+      "confidence": 0.82,
+      "materiality": "core",
+      "kind": "market_impact",
+      "source_ids": [
+        "SRC_5bbea089",
+        "SRC_91a71f2e",
+        "SRC_f858b622"
+      ],
+      "artifact_paths": [
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818055_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818074_01.png",
+        "/tmp/projects/iran-us-economy-2026/reports/chart_quant_1773818092_01.png"
+      ],
+      "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_071551_quant_builder_turn01.md",
+      "status": "verified",
+      "verification_notes": "Claim has sufficient provenance.",
+      "created_at": "2026-03-18T07:15:51"
     }
   ],
   "open_questions": [
     {
-      "id": "A_6785dd6b",
-      "question": "What is the current status of Hormuz \u2014 is it partially reopening? J.P. Morgan's 12 mbd shut-in scenario has major recession implications.",
+      "id": "A_a89c022e",
+      "question": "Has the US government announced SPR releases or other price-stabilization mechanisms in response to Brent crossing $100/bbl?",
       "owner": "qual",
       "priority": "high",
       "difficulty": "simple",
       "status": "open",
       "created_by": "quant_builder",
-      "note": "If Hormuz remains closed past March 22, J.P. Morgan projects 12 mbd shut-ins. VIX is only 22 \u2014 market may be underpricing this.",
-      "created_at": "2026-03-18T06:47:26",
-      "updated_at": "2026-03-18T06:47:26"
+      "note": "10yr yield decline and muted equity response suggest possible fiscal backstop signals; needs policy verification.",
+      "created_at": "2026-03-18T07:21:01",
+      "updated_at": "2026-03-18T07:21:01"
     },
     {
-      "id": "A_71a037ec",
-      "question": "What was the US-Israel strategic trigger that escalated from the Jun 2025 limited strikes to the Feb 2026 full military operation?",
+      "id": "A_6f33b6b9",
+      "question": "What was the specific military/shipping event on January 29 that triggered the first Brent spike to $70.7/bbl?",
       "owner": "qual",
       "priority": "high",
       "difficulty": "complex",
       "status": "open",
       "created_by": "quant_builder",
-      "note": "Market fully retraced Jun 2025 spike; understanding the Feb 2026 trigger is essential for scenario analysis",
-      "created_at": "2026-03-18T06:47:26",
-      "updated_at": "2026-03-18T06:47:26"
+      "note": "Data shows clear Jan 29 inflection but catalyst not identified in current sources.",
+      "created_at": "2026-03-18T07:21:01",
+      "updated_at": "2026-03-18T07:21:01"
     },
     {
-      "id": "A_64281637",
-      "question": "What specific event caused VIX to spike to 52.3 on 8 April 2025?",
-      "owner": "qual",
-      "priority": "high",
-      "difficulty": "complex",
-      "status": "open",
-      "created_by": "quant_builder",
-      "note": "This is the single largest market stress event in the dataset and must be annotated with a verified event.",
-      "created_at": "2026-03-18T06:51:30",
-      "updated_at": "2026-03-18T06:51:30"
-    },
-    {
-      "id": "A_49a70571",
-      "question": "Why are Industrials (XLI +23%) rising sharply \u2014 defense contracts, reshoring, or war-spending multiplier?",
-      "owner": "qual",
-      "priority": "high",
-      "difficulty": "complex",
-      "status": "open",
-      "created_by": "quant_builder",
-      "note": "Industrials outperforming during an oil shock is unusual; narrative explanation needed for synthesis.",
-      "created_at": "2026-03-18T06:51:30",
-      "updated_at": "2026-03-18T06:51:30"
-    },
-    {
-      "id": "A_6fe0b0e4",
-      "question": "Is there evidence of central bank gold buying (PBOC, Gulf SWFs) explaining gold's +87.9% surge and the absent Treasury safe-haven bid?",
-      "owner": "shared",
-      "priority": "high",
-      "difficulty": "complex",
-      "status": "open",
-      "created_by": "quant_builder",
-      "note": "Gold/TLT divergence is the most striking macro signal in the data; needs WGC or IMF reserve data.",
-      "created_at": "2026-03-18T06:51:30",
-      "updated_at": "2026-03-18T06:51:30"
-    },
-    {
-      "id": "A_d2eae6a1",
-      "question": "What is the current Strait of Hormuz status \u2014 open, partially disrupted, or closed \u2014 and what is the insured shipping rate?",
-      "owner": "qual",
-      "priority": "high",
-      "difficulty": "complex",
-      "status": "open",
-      "created_by": "quant_builder",
-      "note": "Brent at current-period high suggests fresh supply risk; Hormuz closure scenario would push to $130-150.",
-      "created_at": "2026-03-18T06:51:30",
-      "updated_at": "2026-03-18T06:51:30"
-    },
-    {
-      "id": "A_37f363a4",
-      "question": "What explains Gold's +72.5% surge \u2014 how much is Iran war vs. other macro factors (Fed, dollar, other geopolitical)?",
+      "id": "A_c060d7f5",
+      "question": "What are the potential long-term implications of the conflict for the global economy?",
       "owner": "qual",
       "priority": "high",
       "difficulty": "synthesis",
       "status": "open",
-      "created_by": "quant_builder",
-      "note": "Gold-SP500 correlation of +0.82 post-conflict suggests inflation regime, not pure risk-off. Needs narrative decomposition.",
-      "created_at": "2026-03-18T06:47:26",
-      "updated_at": "2026-03-18T06:47:26"
+      "created_by": "qual_builder",
+      "note": "Requires further research and analysis.",
+      "created_at": "2026-03-18T07:12:43",
+      "updated_at": "2026-03-18T07:12:43"
     }
   ]
 }
