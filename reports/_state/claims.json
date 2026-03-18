@@ -1,0 +1,367 @@
+[
+  {
+    "id": "CLM_5e3ba399",
+    "statement": "US and Israeli airstrikes on Iran began February 28, 2026, constituting the largest US military operation since the 2003 Iraq invasion.",
+    "agent_role": "quant_builder",
+    "confidence": 0.92,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_fc70646d",
+      "SRC_33a3c1b2"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_36733201",
+    "statement": "Brent crude surged ~13% intraday to $83/bbl and WTI rose to $76/bbl following the strikes, from a pre-war Brent price of ~$72.48.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_262047f5",
+      "SRC_33a3c1b2"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_a5182819",
+    "statement": "Global oil prices surged more than 25% since the start of the war; one source (Star Tribune) cites +35% in the first week.",
+    "agent_role": "quant_builder",
+    "confidence": 0.85,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_025faae1",
+      "SRC_df9e43fd"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_c4d331fc",
+    "statement": "Approximately 20 million barrels per day flowed through the Strait of Hormuz in 2025; this has slowed 'to a trickle' per the IEA since conflict began.",
+    "agent_role": "quant_builder",
+    "confidence": 0.93,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_20d8981e",
+      "SRC_262047f5"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_72cce2a2",
+    "statement": "About 140 million barrels of oil (\u22481.4 days of global demand) from Saudi Arabia, UAE, Iraq, Kuwait, and Qatar are frozen in ports due to the Strait near-closure.",
+    "agent_role": "quant_builder",
+    "confidence": 0.88,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_025faae1"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources. Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_34fb29f9",
+    "statement": "S&P 500 fell ~2% in the first 5 trading days after strikes, vs. \u20137% for European equities and \u20138.4% for MSCI Emerging Markets.",
+    "agent_role": "quant_builder",
+    "confidence": 0.87,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_df9e43fd"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources. Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_10f64ecb",
+    "statement": "S&P 500 traded at 6,683 on March 12, 2026, down 2.5% YTD with RSI near oversold at 35.9; 200-day SMA support at ~6,601.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "supporting",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_df6d49c3"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_9471905a",
+    "statement": "February 2026 CPI came in at 2.4% YoY (+0.3% MoM); core CPI +0.2% MoM \u2014 in line with expectations, before the full energy shock was captured.",
+    "agent_role": "quant_builder",
+    "confidence": 0.93,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_df6d49c3"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources. Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_e9305f9e",
+    "statement": "US gasoline prices rose more than $0.50/gallon since the conflict began, contributing to consumer inflation pressure on top of a 26% cumulative price increase since 2020.",
+    "agent_role": "quant_builder",
+    "confidence": 0.88,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_20d8981e",
+      "SRC_df9e43fd"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_246d9044",
+    "statement": "FOMC rate-cut probability for March 2026 is 4.7% per CME FedWatch; rate cuts pushed back to September 2026.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "supporting",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_df6d49c3"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_778347fa",
+    "statement": "Expert Robert McNally (energy strategist) stated: 'A prolonged closure of the Strait of Hormuz is a guaranteed global recession.'",
+    "agent_role": "quant_builder",
+    "confidence": 0.95,
+    "materiality": "core",
+    "kind": "risk",
+    "source_ids": [
+      "SRC_262047f5"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources. Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_5828b0bb",
+    "statement": "Israeli strikes on Iran on June 13, 2025 caused an 8.5% oil price spike that quickly reversed, contrasting with the sustained 25%+ move in 2026.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "supporting",
+    "kind": "comparison",
+    "source_ids": [
+      "SRC_fc70646d"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_df18b458",
+    "statement": "In 2026, US small/mid-caps (+7\u201312% YTD), international equities (+11% YTD), and bonds (+1.5% Feb) significantly outperformed the S&P 500 (\u20132.5% YTD), representing a major market rotation.",
+    "agent_role": "quant_builder",
+    "confidence": 0.88,
+    "materiality": "supporting",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_df6d49c3",
+      "SRC_c85b5036"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_42fb4f17",
+    "statement": "Three-quarters of Strait of Hormuz crude goes to China, India, Japan, and South Korea; China receives half its crude imports via the Strait.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "supporting",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_262047f5"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061446_quant_builder_turn01.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "CLM_ec6e43f3",
+    "statement": "The +13% figure (Thomson Reuters) is a Day-1 intraday surge (Brent $72.80 \u2192 $82.37 on March 2); the +35% figure (Star Tribune) measures cumulative gain from January 1 2026 low (~$61) to end of Week 1 (~$82-85), roughly 30-35%. Both are correct; they measure different time windows.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_c8fed78e"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061732_quant_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources. Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "CLM_27de0f58",
+    "statement": "Brent crude peaked at ~$119/bbl on March 9, 2026 \u2014 a +63% surge from the pre-war close of ~$72.80 in just 9 trading days, the fastest major oil price spike in modern history.",
+    "agent_role": "quant_builder",
+    "confidence": 0.92,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_e372ab0d",
+      "SRC_6e5dd509"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061732_quant_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "CLM_940ca4d0",
+    "statement": "Saudi Petroline has design capacity of 5-7 mbd and is ramping toward full utilization; UAE ADCOP has 1.5-1.8 mbd capacity with ~440k bpd spare at current 71% utilization. Combined bypass potential: ~5.5-6.8 mbd.",
+    "agent_role": "quant_builder",
+    "confidence": 0.9,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_56c6b886",
+      "SRC_d95878f2"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061732_quant_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "CLM_1028f225",
+    "statement": "Hormuz normally carries ~20 mbd of crude and LNG. Pipeline bypass capacity (3.5-5.5 mbd incremental) covers at most 17-28% of normal Hormuz throughput, leaving a structural shortfall of 12-17 mbd if fully closed.",
+    "agent_role": "quant_builder",
+    "confidence": 0.88,
+    "materiality": "core",
+    "kind": "risk",
+    "source_ids": [
+      "SRC_d95878f2",
+      "SRC_1d76806b",
+      "SRC_4fdf092d"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061732_quant_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "CLM_db46f81d",
+    "statement": "OPEC+ nominal spare capacity is ~4.1 mbd (mostly Saudi/UAE), but the actual production increase agreed March 1, 2026 was only +206,000 bpd \u2014 5% of theoretical spare, a symbolically inadequate response.",
+    "agent_role": "quant_builder",
+    "confidence": 0.92,
+    "materiality": "core",
+    "kind": "data_point",
+    "source_ids": [
+      "SRC_d95878f2",
+      "SRC_4fdf092d"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061732_quant_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "CLM_e459b0e3",
+    "statement": "The 2026 US equity market rotation (underperformance vs. international/small-cap) is approximately 60% pre-war structural (dollar cycle, tariff drag, fiscal uncertainty) and 40% war-accelerated (oil shock amplifying US earnings headwinds). Brent was already +30% YTD before the conflict's peak.",
+    "agent_role": "quant_builder",
+    "confidence": 0.65,
+    "materiality": "supporting",
+    "kind": "comparison",
+    "source_ids": [
+      "SRC_c8fed78e",
+      "SRC_1d76806b"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061732_quant_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "CLM_c4c09d5e",
+    "statement": "Brent fell 12.6% in a single session on March 10 after Trump's de-escalation comments, then partially recovered as war escalation continued, demonstrating extreme political-driven volatility.",
+    "agent_role": "quant_builder",
+    "confidence": 0.95,
+    "materiality": "core",
+    "kind": "market_impact",
+    "source_ids": [
+      "SRC_e372ab0d"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061732_quant_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Core claim lacks two independent tier 1-3 sources. Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "CLM_8e58eb47",
+    "statement": "Analysts project Brent in the $110-130/bbl range over the next 3 months if Hormuz disruption persists, with $120+ representing demand-destruction territory.",
+    "agent_role": "quant_builder",
+    "confidence": 0.75,
+    "materiality": "supporting",
+    "kind": "risk",
+    "source_ids": [
+      "SRC_1d76806b",
+      "SRC_6e5dd509"
+    ],
+    "artifact_paths": [],
+    "report_path": "/tmp/projects/iran-us-economy-2026/reports/20260318_061732_quant_builder_turn02.md",
+    "status": "needs_revision",
+    "verification_notes": "Quant claim lacks dataset provenance or generated charts.",
+    "created_at": "2026-03-18T06:17:32"
+  }
+]

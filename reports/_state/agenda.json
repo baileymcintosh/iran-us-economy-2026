@@ -1,0 +1,122 @@
+[
+  {
+    "id": "A_874aa352",
+    "question": "Produce a defensible synthesis with claims, sources, and charts.",
+    "owner": "quant",
+    "priority": "high",
+    "difficulty": "synthesis",
+    "status": "done",
+    "created_by": "planner",
+    "note": "",
+    "created_at": "2026-03-18T06:09:50",
+    "updated_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "A_93c455f4",
+    "question": "What explains the oil price discrepancy \u2014 +13% intraday (Thomson Reuters) vs. +35% in Week 1 (Star Tribune)? Are these measuring different time windows or contracts?",
+    "owner": "quant",
+    "priority": "medium",
+    "difficulty": "simple",
+    "status": "done",
+    "created_by": "quant_builder",
+    "note": "Needs reconciliation via EIA daily price data once execution environment is fixed.",
+    "created_at": "2026-03-18T06:14:46",
+    "updated_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "A_c5ee3dd4",
+    "question": "What is Iran's current military posture and capability to sustain Strait disruption \u2014 mines, missiles, naval assets?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "Critical for duration-of-shock estimate which drives recession vs. soft-landing scenarios.",
+    "created_at": "2026-03-18T06:14:46",
+    "updated_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "A_cc9aecdc",
+    "question": "Is the 2026 market rotation (US underperformance vs. intl/small-cap) pre-war or war-caused?",
+    "owner": "shared",
+    "priority": "medium",
+    "difficulty": "complex",
+    "status": "done",
+    "created_by": "quant_builder",
+    "note": "RetirePath notes it was already underway in January; the conflict may have amplified rather than caused it.",
+    "created_at": "2026-03-18T06:14:46",
+    "updated_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "A_a4aa78ea",
+    "question": "What is the US SPR (Strategic Petroleum Reserve) current level and release capacity, and has the administration announced a release?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "A major policy lever that could cap oil prices; Trump mentioned 'risk insurance' for tankers but SPR deployment not confirmed in sources.",
+    "created_at": "2026-03-18T06:14:46",
+    "updated_at": "2026-03-18T06:14:46"
+  },
+  {
+    "id": "A_f5de2723",
+    "question": "What is the status of OPEC spare capacity and whether Saudi Arabia / UAE can reroute exports via pipelines bypassing the Strait?",
+    "owner": "quant",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "done",
+    "created_by": "quant_builder",
+    "note": "Saudi Arabia has ~1.5M bbl/day pipeline capacity via East-West pipeline; UAE has ADCO pipeline to Fujairah. This affects the supply-shock ceiling.",
+    "created_at": "2026-03-18T06:14:46",
+    "updated_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "A_cbaac217",
+    "question": "Was the Ruwais refinery fire caused by Iranian strikes or an internal accident? If Iranian-caused, does ADNOC have realistic ability to restore UAE bypass capacity?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "simple",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "CNBC reported Ruwais closed due to fire; this materially caps UAE ADCOP bypass at <1.8 mbd and changes the supply gap arithmetic.",
+    "created_at": "2026-03-18T06:17:32",
+    "updated_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "A_ad6d981e",
+    "question": "What is the estimated duration of Qatar's Ras Laffan LNG shutdown, and have European TTF gas prices already reflected this disruption?",
+    "owner": "shared",
+    "priority": "high",
+    "difficulty": "simple",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "Qatar LNG halt has direct European energy security implications distinct from the crude oil story.",
+    "created_at": "2026-03-18T06:17:32",
+    "updated_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "A_31cf0b87",
+    "question": "What were Jan-Feb 2026 fund flow data showing for US vs. international equity allocations prior to Feb 28?",
+    "owner": "qual",
+    "priority": "medium",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "Needed to definitively resolve whether the rotation was pre-war structural or war-caused. Currently assessed at 60/40 split with low confidence.",
+    "created_at": "2026-03-18T06:17:32",
+    "updated_at": "2026-03-18T06:17:32"
+  },
+  {
+    "id": "A_307c55f5",
+    "question": "Is Saudi Arabia strategically limiting OPEC+ production increases to maximize revenue windfall from the Hormuz closure, given its Red Sea export route is unaffected?",
+    "owner": "qual",
+    "priority": "high",
+    "difficulty": "complex",
+    "status": "open",
+    "created_by": "quant_builder",
+    "note": "The 206k bpd increase vs. 4.1 mbd spare is conspicuously small. Saudi incentive structure under Hormuz closure is a key geopolitical question.",
+    "created_at": "2026-03-18T06:17:32",
+    "updated_at": "2026-03-18T06:17:32"
+  }
+]
